@@ -87,7 +87,7 @@ export default function NavbarComp() {
             className={router.pathname === "/expo" ? "active" : ""}
           >
             <div className="bor">
-              <span>Seminar's</span>
+              <span>Seminar&apos;s</span>
             </div>
           </Link>
           <Link
