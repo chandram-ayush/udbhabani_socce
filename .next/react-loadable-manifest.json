@@ -1,0 +1,14 @@
+{
+  "..\\components\\AppbarComp.js -> ./NavbarComp": {
+    "id": "..\\components\\AppbarComp.js -> ./NavbarComp",
+    "files": [
+      "static/chunks/components_NavbarComp_js.js"
+    ]
+  },
+  "..\\components\\AppbarComp.js -> ./SideBarComp": {
+    "id": "..\\components\\AppbarComp.js -> ./SideBarComp",
+    "files": [
+      "static/chunks/components_SideBarComp_js.js"
+    ]
+  }
+}
