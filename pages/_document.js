@@ -88,7 +88,7 @@ MyDocument.getInitialProps = async (ctx) => {
   }
 
   const emotionStyleTags = emotionStyles.styles.map((style) => (
-    <style
+    <body
       
     />
   ));
