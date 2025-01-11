@@ -39,7 +39,7 @@ const MyApp = (props) => {
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={darkTheme}>
         <Head>
-          Udhbhabani 4.0
+          <title> Udhbhabani 4.0 </title>
         </Head>
         <CssBaseline />
         <LoadingStateProvider>
