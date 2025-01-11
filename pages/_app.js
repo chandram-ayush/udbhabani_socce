@@ -38,9 +38,7 @@ const MyApp = (props) => {
   return (
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={darkTheme}>
-        <Head>
-          <title> Udhbhabani 4.0 </title>
-        </Head>
+        
         <CssBaseline />
         <LoadingStateProvider>
           {loading && <LoadingComp />}
