@@ -1,5 +1,8 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+
 export default function Countdown() {
   const [seconds, setSeconds] = useState(0);
   const [mins, setMins] = useState(0);
@@ -7,10 +10,11 @@ export default function Countdown() {
   const [days, setDays] = useState(0);
   const [dead, setDead] = useState(false);
   const [end, setEnd] = useState(false);
-  const theme = useTheme();
+  const router = useRouter();
 
   const deadline = "January, 30, 2025";
   const end_deadline = "February, 2, 2025";
+
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
     const endtime = Date.parse(end_deadline) - Date.now();
@@ -23,8 +27,7 @@ export default function Countdown() {
   };
 
   useEffect(() => {
-    const interval = setInterval(() => getTime(deadline), 1000);
-
+    const interval = setInterval(() => getTime(), 1000);
     return () => clearInterval(interval);
   }, []);
 
@@ -32,15 +35,41 @@ export default function Countdown() {
     display: "flex",
     flexDirection: "row",
     maxWidth: "90vw",
+    overflow: "hidden",
     div: {
-      width: "80px",
-      height: "80px",
+      width: "100px",
+      height: "100px",
       margin: "10px",
       display: "flex",
-      //flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
       backdropFilter: "blur(5px)",
+    },
+    "@keyframes float": {
+      "0%": { transform: "translateY(0px)" },
+      "50%": { transform: "translateY(-20px)" },
+      "100%": { transform: "translateY(0px)" },
+    },
+    bubbleButton: {
+      display: "inline-block",
+      width: "120px",
+      height: "120px",
+      borderRadius: "50%",
+      backgroundColor: "#007bff", // Blue background
+      color: "#fff", // White text
+      border: "none",
+      fontSize: "16px",
+      cursor: "pointer",
+      outline: "none",
+      textAlign: "center",
+      lineHeight: "200px", // Centering text vertically
+      position: "relative",
+      animation: "float 4s ease-in-out infinite",
+      boxShadow: "0 10px 50px rgba(255, 0, 0, 0.2)",
+      transition: "transform 0.3s ease",
+      ":hover": {
+        transform: "scale(1.1)",
+      },
     },
   };
 
@@ -87,12 +116,18 @@ export default function Countdown() {
           <Typography variant="p">sec</Typography>
         </Box>
       </Box>
-      <Typography
-        sx={{ margin: "10px 0", fontSize: "24px !important", zIndex: "2" }}
+      {/*<Typography
+        sx={{ margin: "10px 0 20px", fontSize: "24px !important", zIndex: "2" }}
         variant="h2"
       >
         TO START
-      </Typography>
+      </Typography>*/}
+      <Button
+        sx={styles.bubbleButton}
+        onClick={() => router.push('/about')}
+      >
+      <Image src="/images/udhlogo.png" height="1750" width="750" alt="Socce" />
+      </Button>
     </Box>
   );
 }

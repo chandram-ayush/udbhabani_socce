@@ -1,6 +1,7 @@
 import { Button, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { useRef } from "react";
+import Image from "next/image";
 import Countdown from "../components/Countdown";
 const styles = {
   height: "95vh",
@@ -73,12 +74,13 @@ export default function VideoText({ hideIt }) {
         <Typography variant="h5">IIEST Shibpur&apos;s</Typography>
         <Typography variant="h5">1th - 11th February</Typography>
       </Box>
-      <Typography variant="h1" className="Heading">
-        UDBAHBANI
-      </Typography>
-      <Typography variant="h4" className="noMarginB">
-        Annual Techfest of Department of Civil Engineering
-      </Typography>
+      <Box className="aboutUdbhabani center1">
+              <Image src="/images/udhlogo.png" height="1750" width="750" alt="Socce" />
+              <Box className="content" style={{ textAlign: "justify" }}>
+              Annual Techfest of Department of Civil Engineering
+              </Box>
+      </Box>
+      
       <Countdown />
     </Box>
   );

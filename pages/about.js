@@ -75,7 +75,7 @@ export default function AboutPage() {
       alignItems: "center",
       mb: "50px",
     },
-    ".aboutImpetus, .aboutDept": {
+    ".aboutUdbhabani, .aboutDept": {
       margin: "50px 0",
       [theme.breakpoints.down("md")]: {
         marginTop: "20px",
@@ -120,8 +120,13 @@ export default function AboutPage() {
           />
         </Box>
       </Box>
-
-      <Box className="aboutImpetus center1">
+      <Box>
+        {/*<Typography variant="h2" style={{ fontFamily: "Rowdies", margin: "30px", textAlign: "center" }}>
+          SOME MOMENTS OF PREVIOUS EDITIONS OF Udhbhabani
+        </Typography>*/}
+        <CarouselComp1 />
+      </Box>
+      <Box className="aboutUdbhabani center1">
         <Image src="/images/udhlogo.png" height="1750" width="750" alt="Socce" />
         <Box className="content" style={{ textAlign: "justify" }}>
           <Typography variant="p">
@@ -144,12 +149,7 @@ export default function AboutPage() {
         </Box>
       </Box>
 
-      <Box>
-        <Typography variant="h2" style={{ fontFamily: "Rowdies", margin: "30px", textAlign: "center" }}>
-          SOME MOMENTS OF PREVIOUS EDITIONS OF Udhbhabani
-        </Typography>
-        <CarouselComp1 />
-      </Box>
+      
       <Contact />
     </Box>
   );

@@ -34,7 +34,7 @@ const Divider2 = () => {
         <defs>
           <linearGradient id="shapeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stopColor="black" />
-            <stop offset="50%" stopColor="rgb(17, 24, 39)" />
+            <stop offset="50%" stopColor="rgb(39, 47, 63)" />
             <stop offset="100%" stopColor="black" />
           </linearGradient>
         </defs>

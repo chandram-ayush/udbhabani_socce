@@ -82,10 +82,10 @@ export default function HomePageAbout() {
           <Box sx={style}>
             <Box className="content">
               <Typography className="flux" variant="h1">
-                UDBAHBANI
+                UDBHABANI
               </Typography>
               <Typography variant="p">
-                Welcome to Udhabhabani, the pinnacle of innovation and excellence in the field of Civil Engineering! Organized by the esteemed Civil Engineering Department, this technical fest is a celebration of creativity, ingenuity, and cutting-edge advancements in the realm of civil infrastructure. Udhabhabani, derived from the Sanskrit words &quot;Udhabha&quot; meaning construction and &quot;Bani&quot; meaning creation, encapsulates the essence of our event - a platform where budding engineers come together to showcase their prowess in building the future. With a rich tapestry of competitions, workshops, seminars, and exhibitions, Udhabhabani promises to be an immersive experience for participants and attendees alike.
+                Welcome to Udbhabani, the pinnacle of innovation and excellence in the field of Civil Engineering! Organized by the esteemed Civil Engineering Department, this technical fest is a celebration of creativity, ingenuity, and cutting-edge advancements in the realm of civil infrastructure. Udhabhabani, derived from the Sanskrit words &quot;Udhabha&quot; meaning construction and &quot;Bani&quot; meaning creation, encapsulates the essence of our event - a platform where budding engineers come together to showcase their prowess in building the future. With a rich tapestry of competitions, workshops, seminars, and exhibitions, Udhabhabani promises to be an immersive experience for participants and attendees alike.
                 So, no matter where you come from, we will make sure you add a feather to your cap on the way back.
               </Typography>
               <LearnMore link={"about"} />
