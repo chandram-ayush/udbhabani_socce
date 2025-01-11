@@ -87,17 +87,12 @@ MyDocument.getInitialProps = async (ctx) => {
     return initialProps;
   }
 
-  const emotionStyleTags = emotionStyles.styles.map((style) => (
-    <body
-      
-    />
-  ));
+  
 
   return {
     ...initialProps,
     styles: [
-      ...React.Children.toArray(initialProps.styles),
-      ...emotionStyleTags,
+      ...React.Children.toArray(initialProps.styles)
     ],
   };
 };
