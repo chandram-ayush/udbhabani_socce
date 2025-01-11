@@ -66,7 +66,7 @@ export default class MyDocument extends Document {
   }
 }
 
-MyDocument.getInitialProps = async (ctx) => {
+{/*MyDocument.getInitialProps = async (ctx) => {
   const originalRenderPage = ctx.renderPage;
 
   const cache = createEmotionCache();
@@ -95,4 +95,4 @@ MyDocument.getInitialProps = async (ctx) => {
     ...initialProps,
     styles: [...React.Children.toArray(initialProps.styles), ...emotionStyleTags],
   };
-};
+};*/}
