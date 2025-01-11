@@ -66,9 +66,8 @@ export default class MyDocument extends Document {
   }
 }
 
-{/*MyDocument.getInitialProps = async (ctx) => {
+MyDocument.getInitialProps = async (ctx) => {
   const originalRenderPage = ctx.renderPage;
-
   const cache = createEmotionCache();
   const { extractCriticalToChunks } = createEmotionServer(cache);
 
@@ -83,6 +82,11 @@ export default class MyDocument extends Document {
   const initialProps = await Document.getInitialProps(ctx);
   const emotionStyles = extractCriticalToChunks(initialProps.html);
 
+  if (!emotionStyles || !emotionStyles.styles) {
+    console.warn('Emotion styles could not be extracted:', emotionStyles);
+    return initialProps;
+  }
+
   const emotionStyleTags = emotionStyles.styles.map((style) => (
     <style
       data-emotion={`${style.key} ${style.ids.join(" ")}`}
@@ -93,6 +97,10 @@ export default class MyDocument extends Document {
 
   return {
     ...initialProps,
-    styles: [...React.Children.toArray(initialProps.styles), ...emotionStyleTags],
+    styles: [
+      ...React.Children.toArray(initialProps.styles),
+      ...emotionStyleTags,
+    ],
   };
-};*/}
+};
+
