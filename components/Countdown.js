@@ -128,7 +128,7 @@ export default function Countdown() {
         sx={styles.bubbleButton}
         onClick={() => router.push("/home")}
       >
-      <Image src="/images/udhlogo.png" height="1750" width="750" alt="Socce" />
+      <Image src="/images/udhlogo.png" height="100px" width="100px" alt="Socce" />
       </Button>
     </Box>
   );
