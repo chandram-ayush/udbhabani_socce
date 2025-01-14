@@ -2,6 +2,8 @@ import { Typography, useTheme } from "@mui/material";
 import { Box } from "@mui/system";
 import Contact from "../components/Contact";
 import SponsorCard from "../components/SponsorCard";
+import React from 'react';
+
 
 export default function SponsorsPage() {
   const styles = {

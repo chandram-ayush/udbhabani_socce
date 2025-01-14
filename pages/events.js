@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, Typography, Tab, Tabs } from "@mui/material";
 import { useState } from "react";
 import Contact from "../components/Contact";

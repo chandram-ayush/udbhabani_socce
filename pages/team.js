@@ -1,5 +1,6 @@
 import { Divider, Tab, Tabs, Typography, useTheme } from "@mui/material";
 import { tabsClasses } from "@mui/material/Tabs";
+import React from 'react';
 import { Box } from "@mui/system";
 import { useState } from "react";
 import Contact from "../components/Contact";

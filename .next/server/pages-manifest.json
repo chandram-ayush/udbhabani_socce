@@ -2,10 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.js",
-  "/events": "pages/events.js",
-  "/": "pages/index.js",
-  "/expo": "pages/expo.js",
-  "/team": "pages/team.js",
-  "/sponsors": "pages/sponsors.js"
+  "/about": "pages/about.js"
 }

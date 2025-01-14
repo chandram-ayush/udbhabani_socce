@@ -6,6 +6,8 @@ import Contact from "../components/Contact";
 import Image from "next/image";
 import BackgroundParticles from "../components/BgParticles2";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import React from 'react';
+
 export default function IAMPage() {
   const theme = useTheme();
 

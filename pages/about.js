@@ -1,3 +1,4 @@
+import React from 'react';
 import { Typography, useTheme } from "@mui/material";
 import { Box } from "@mui/system";
 import ContactCard from "../components/ContactCard";

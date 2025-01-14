@@ -2,6 +2,8 @@ import { Box, Typography, Button } from "@mui/material";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import React from 'react';
+
 
 export default function Countdown() {
   const [seconds, setSeconds] = useState(0);

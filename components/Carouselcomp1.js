@@ -1,5 +1,7 @@
 import { Box } from "@mui/system";
 import Image from "next/image";
+import React from 'react';
+
 import Carousel from "react-elastic-carousel";
 import { useRef } from "react";
 import { Typography } from "@mui/material";

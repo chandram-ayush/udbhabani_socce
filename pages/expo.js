@@ -1,6 +1,8 @@
 import { useTheme } from "@mui/material";
 import { Box } from "@mui/system";
 import { Button } from '@mui/material';
+import React from 'react';
+
 
 import Contact from "../components/Contact";
 import Image from "next/image";

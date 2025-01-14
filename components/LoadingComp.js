@@ -2,6 +2,8 @@ import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import React from 'react';
+
 
 export default function LoadingComp() {
   const styles = {

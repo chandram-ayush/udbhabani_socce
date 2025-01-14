@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
+import React from 'react';
+
 import { AnimatePresence, motion } from "framer-motion";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";

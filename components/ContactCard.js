@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Box } from "@mui/system";
 import Image from "next/image";
+import React from 'react';
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";

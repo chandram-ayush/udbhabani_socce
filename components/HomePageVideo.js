@@ -1,6 +1,8 @@
 import { Box } from "@mui/system";
 import { useEffect, useRef } from "react";
 import { useLoading } from "./LoadingContext";
+import React from 'react';
+
 
 const styles = {
   width: "100vw",

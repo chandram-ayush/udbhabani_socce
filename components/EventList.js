@@ -1,5 +1,7 @@
 import { Typography, useTheme } from "@mui/material";
 import { Box } from "@mui/system";
+import React from 'react';
+
 
 export default function EventList({ setCurrIdx, currIdx }) {
   const theme = useTheme();

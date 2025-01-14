@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import { Box } from "@mui/system";
 import Image from "next/image";

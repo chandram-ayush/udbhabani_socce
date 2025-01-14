@@ -6,6 +6,8 @@ import { Typography } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import { Box } from "@mui/system";
 import Link from "next/link";
+import React from 'react';
+
 
 const styles = {
   width: "90vw",

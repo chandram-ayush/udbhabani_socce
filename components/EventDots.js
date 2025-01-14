@@ -1,5 +1,7 @@
 import { useTheme } from "@mui/material";
 import { Box } from "@mui/system";
+import React from 'react';
+
 
 export default function EventDots({ currIdx, setCurrIdx }) {
   const theme = useTheme();
