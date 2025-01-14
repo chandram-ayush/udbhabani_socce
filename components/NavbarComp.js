@@ -69,8 +69,8 @@ export default function NavbarComp() {
       <Box sx={styles} className="center1">
         <Box className="nav">
           <Link
-            href="/about"
-            className={router.pathname === "/about" ? "active" : ""}
+            href="/home"
+            className={router.pathname === "/home" ? "active" : ""}
           >
             <div className="bor">
               <span>Home</span>
