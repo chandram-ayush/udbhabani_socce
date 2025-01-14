@@ -5,7 +5,6 @@ import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
@@ -14,14 +13,30 @@ export default function SideBarComp() {
   const [isDrawerOpen, setDrawerOpen] = useState(false);
   const router = useRouter();
 
-  const goToPage = (key) => {
-    const pg = key.split(" ").join("").toLowerCase();
-    const currentPath = router.asPath;
-    if (currentPath !== `/${pg}`) {
-      router.push({
-        pathname: "/[a]",
-        query: { a: pg },
-      });
+  const goToPage = (page) => {
+    let path = "";
+    switch (page) {
+      case "Home":
+        path = "/home";
+        break;
+      case "Events":
+        path = "/events";
+        break;
+      case "Seminar":
+        path = "/seminar";
+        break;
+      case "Sponsors":
+        path = "/sponsors";
+        break;
+      case "Team":
+        path = "/team";
+        break;
+      default:
+        path = "/";
+    }
+    
+    if (router.asPath !== path) {
+      router.push(path);
       setDrawerOpen(false);
     } else {
       setDrawerOpen(false);
@@ -46,17 +61,10 @@ export default function SideBarComp() {
       role="presentation"
     >
       <List>
-        {[
-          "Home",
-          "Events",
-          "Seminar",
-          "Sponsors",
-          "Team",
-        ].map((text) => (
+        {["Home", "Events", "Seminar", "Sponsors", "Team"].map((text) => (
           <ListItem key={text} disablePadding>
             <ListItemButton onClick={() => goToPage(text)}>
-              <ListItemIcon></ListItemIcon>
-              <ListItemText primary={text.toString()} />
+              <ListItemText primary={text} />
             </ListItemButton>
           </ListItem>
         ))}
