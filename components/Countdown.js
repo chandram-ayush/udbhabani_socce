@@ -123,13 +123,13 @@ export default function Countdown() {
         variant="h2"
       >
         TO START
-      </Typography>*/}
+      </Typography>
       <Button
         sx={styles.bubbleButton}
         onClick={() => router.push("/home")}
       >
       <Image src="/images/udhlogo.png" height="100" width="100" alt="Socce" />
-      </Button>
+      </Button>*/}
     </Box>
   );
 }
