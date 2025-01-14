@@ -94,7 +94,11 @@ export default function AboutPage() {
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize();
+
+    // Initial check
+    if (window.innerWidth > 900) {
+      videoRef.current?.play().catch((e) => console.log(e));
+    }
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
