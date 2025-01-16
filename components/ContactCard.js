@@ -55,7 +55,7 @@ const ContactCard = ({ person }) => {
         </h5>
         <span className="text-[14px] pb-1 text-gray-300">{person.post}</span>
         <h5 className=" text-[16px]  font-medium text-gray-400 ">
-          <LocalPhoneIcon className="h-4" /> {person.phone}{" "}
+          
         </h5>
       </Box>
 
