@@ -100,20 +100,28 @@ export default function TeamPage() {
   };
   const finance_person = {
     person1: {
-      name: "Amit Sharma",
+      name: "Rajdeep Barai",
       phone: "amitsharma@gmail.com",
       post: "Finance Head",
       imgname: "amit_sharma.jpg",
-      insta: "https://www.instagram.com/amit_finance?igsh=example",
-      link: "https://www.linkedin.com/in/amit-sharma",
+      insta: "https://www.instagram.com",
+      link: "https://www.linkedin.com/in/barairajdeep01?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     person2: {
-      name: "Kiran Verma",
+      name: "Aditya Raj Verma",
       phone: "kiranverma@finance.com",
       post: "Finance Executive",
       imgname: "kiran_verma.jpg",
-      insta: "https://www.instagram.com/kiran_finance",
-      link: "https://www.linkedin.com/in/kiran-verma",
+      insta: "https://www.instagram.com/i_amadityarajverma",
+      link: "https://www.linkedin.com/in/iamadityarajverma",
+    },
+    person3: {
+      name: "Ayush Gupta",
+      phone: "kiranverma@finance.com",
+      post: "Finance Executive",
+      imgname: "kiran_verma.jpg",
+      insta: "https://www.instagram.com/_.ayush__.15",
+      link: "https://www.linkedin.com/in/ayush-gupta-746b6331a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   };
   
@@ -189,39 +197,63 @@ export default function TeamPage() {
   
   const food_person = {
     person1: {
-      name: "Rahul Desai",
+      name: "Sumaiya kulsum ",
       phone: "rahul.food@gmail.com",
       post: "Food Committee Head",
       imgname: "rahul_desai.jpg",
-      insta: "https://www.instagram.com/rahul_food",
-      link: "https://www.linkedin.com/in/rahul-desai",
+      insta: "https://www.instagram.com/",
+      link: "https://www.linkedin.com/in/sumaiya-kulsum-b73b30264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     person2: {
-      name: "Pooja Patel",
+      name: "Abhishek Kumar",
       phone: "pooja.food@gmail.com",
       post: "Food Coordinator",
       imgname: "pooja_patel.jpg",
-      insta: "https://www.instagram.com/pooja_food",
-      link: "https://www.linkedin.com/in/pooja-patel",
+      insta: "un.filtered.abhi",
+      link: "https://www.linkedin.com/in/abhishek-kumar-9bbb492a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    person3: {
+      name: "Erikilla Ashish",
+      phone: "pooja.food@gmail.com",
+      post: "Food Coordinator",
+      imgname: "pooja_patel.jpg",
+      insta: "ashish_rocky_11",
+      link: "https://www.linkedin.com/in/erikilla-ashish-073a34289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   };
   
   const souvenir_person = {
     person1: {
-      name: "Vikas Kumar",
+      name: "Yashwika Sanjay",
       phone: "vikas.souvenir@gmail.com",
       post: "Souvenir Head",
       imgname: "vikas_kumar.jpg",
-      insta: "https://www.instagram.com/vikas_souvenir",
-      link: "https://www.linkedin.com/in/vikas-kumar",
+      insta: "https://www.instagram.com/yashwika_10",
+      link: "https://www.linkedin.com/in/yashwika-sanjay-141639224/",
     },
     person2: {
-      name: "Neha Rani",
+      name: "Yogesh Mangawa",
       phone: "neha.souvenir@gmail.com",
       post: "Souvenir Coordinator",
       imgname: "neha_rani.jpg",
-      insta: "https://www.instagram.com/neha_souvenir",
-      link: "https://www.linkedin.com/in/neha-rani",
+      insta: "yogesh_mangawa",
+      link: "https://www.linkedin.com/in/yogeshmangawa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    person3: {
+      name: "Payal",
+      phone: "neha.souvenir@gmail.com",
+      post: "Souvenir Coordinator",
+      imgname: "neha_rani.jpg",
+      insta: "_ingle_93",
+      link: "https://www.linkedin.com/in/PAYAL ",
+    },
+    person4: {
+      name: "Hardik Bansal",
+      phone: "neha.souvenir@gmail.com",
+      post: "Souvenir Coordinator",
+      imgname: "neha_rani.jpg",
+      insta: "_hardik_bansal.iiest",
+      link: "https://www.linkedin.com/in/hardikbansalcivil",
     },
   };
   
@@ -248,6 +280,8 @@ export default function TeamPage() {
           {/* Finance Committee */}
           <Box style={{ width: "100%", marginBottom: "80px" }}>
             <ContactCard person={finance_person.person1} />
+            <ContactCard person={finance_person.person2} />
+            <ContactCard person={finance_person.person3} />
             {/* Add more finance team members as needed */}
           </Box>
         </TabPanel>
@@ -279,6 +313,7 @@ export default function TeamPage() {
           <Box style={{ width: "100%", marginBottom: "80px" }}>
             <ContactCard person={food_person.person1} />
             <ContactCard person={food_person.person2} />
+            <ContactCard person={food_person.person3} />
           </Box>
         </TabPanel>
   
@@ -297,6 +332,8 @@ export default function TeamPage() {
           <Box style={{ width: "100%", marginBottom: "80px" }}>
             <ContactCard person={souvenir_person.person1} />
             <ContactCard person={souvenir_person.person2} />
+            <ContactCard person={souvenir_person.person3} />
+            <ContactCard person={souvenir_person.person4} />
           </Box>
         </TabPanel>
       </Box>

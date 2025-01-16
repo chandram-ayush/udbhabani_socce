@@ -1,15 +1,20 @@
 import { Box } from "@mui/system";
 import Link from "next/link";
-import React from "react";
+import React from 'react';
 import { useRouter } from "next/router";
 
 const styles = {
   width: "100%",
   maxWidth: "1200px",
+
   ".nav": {
     display: "grid",
-    gridTemplateColumns: "repeat(5, 1fr)",
-    gap: "10px",
+    width: "100%",
+    gridTemplateColumns: {
+      lg: "repeat(5, 1fr)",
+      sm: "repeat(5, 1fr)",
+      xs: "repeat(5, 1fr)",
+    },
     a: {
       fontSize: "16.8px",
       textDecoration: "none",
@@ -18,34 +23,38 @@ const styles = {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      position: "relative",
-      overflow: "hidden",
-      padding: "10px 0",
-      transition: "transform 0.3s ease",
-      ":hover": {
-        transform: "scale(1.1)",
+      cursor: "default",
+      ".bor": {
+        width: "70%",
+        textAlign: "center",
       },
-      ":hover::after": {
-        content: '""',
-        position: "absolute",
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        backgroundColor: "rgba(255, 255, 255, 0.1)",
-        backdropFilter: "blur(5px)",
-        zIndex: -1,
+      span: {
+        position: "relative",
+        display: "inline-block",
+        ":hover": {
+          color: "#ffffff",
+          transform: "scale(1.1)",
+          cursor: "pointer",
+        },
+        ":hover::before": {
+          content: '""',
+          position: "absolute",
+          left: 0,
+          bottom: 0,
+          width: "100%",
+        },
       },
     },
   },
   "a.active": {
-    borderBottom: "2px solid cyan",
+    ".bor": {
+      borderBottom: "2px solid cyan",
+    },
   },
 };
 
 export default function NavbarComp() {
   const router = useRouter();
-
   return (
     <Box
       className="center1"
@@ -53,20 +62,45 @@ export default function NavbarComp() {
     >
       <Box sx={styles} className="center1">
         <Box className="nav">
-          <Link href="/home" className={router.pathname === "/home" ? "active" : ""}>
-            <span>Home</span>
+          <Link
+            href="/home"
+            className={router.pathname === "/home" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Home</span>
+            </div>
           </Link>
-          <Link href="/events" className={router.pathname === "/events" ? "active" : ""}>
-            <span>Events</span>
+          <Link
+            href="/events"
+            className={router.pathname === "/events" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Events</span>
+            </div>
           </Link>
-          <Link href="/seminar" className={router.pathname === "/seminar" ? "active" : ""}>
-            <span>Seminar&apos;s</span>
+          <Link
+            href="/seminar"
+            className={router.pathname === "/seminar" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Seminar&apos;s</span>
+            </div>
           </Link>
-          <Link href="/sponsors" className={router.pathname === "/sponsors" ? "active" : ""}>
-            <span>Sponsors</span>
+          <Link
+            href="/sponsors"
+            className={router.pathname === "/sponsors" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Sponsors</span>
+            </div>
           </Link>
-          <Link href="/home" className={router.pathname === "/home" ? "active" : ""}>
-            <span>Meet Our Team</span>
+          <Link
+            href="/home"
+            className={router.pathname === "/home" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Meet Our Team</span>
+            </div>
           </Link>
         </Box>
       </Box>
