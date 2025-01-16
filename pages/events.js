@@ -38,65 +38,60 @@ export default function TeamPage() {
   };
   const activity = {
     person1: {
-      name: "Convo Clash",
-      imgname: "20.png",
+      name: "Brainwave",
+      imgname: "21.png",
       registrationLink: "/events/debate",
          
     },
       person2: {
-        name: "Bridge Craft",
-        imgname: "17.png",
+        name: "Tech Canvas",
+        imgname: "24.png",
         registrationLink: "/events/bridgecraft",
         
       },
       person3: {
-        name: "Go Green",
-        imgname: "18.png",
+        name: "Cad Clash",
+        imgname: "25.png",
         registrationLink: "/events/civinar",
         
       },
       person4: {
-        name: "CAD Catalyst",
+        name: "Build Vision",
         imgname: "16.png",
         registrationLink: "/events/catalyst",
         
       },
       person5: {
-        name: "Brug IT",
+        name: "Archlens",
         imgname:"19.png",
-        registrationLink: "/events/brug",
+        registrationLink: "/events/archlens",
         
       },
       person6: {
-        name: "Inforace",
-        imgname:"21.png",
+        name: "Bridge Masters",
+        imgname:"17.png",
           registrationLink: "/events/quiz",
         
       },
       person7: {
-        name: "Surveryor's Quest",
+        name: "Walk-in",
         imgname: "23.png",
         registrationLink: "/events/quest",
         
       },
       person8: {
-        name: "Bgmi",
-        imgname: "22.png",
+        name: "Elevate City",
+        imgname: "18.png",
         registrationLink: "/events/bgmi",
         
       },
       person9: {
-        name: "Valorant",
-        imgname: "22.png",
+        name: "Pitch Perfect",
+        imgname: "20.png",
         registrationLink: "/events/valorant",
         
       },
-      person10: {
-        name: "Fifa",
-        imgname: "22.png",
-        registrationLink: "https://forms.gle/qJ4xj4E4FgC8FE8",
-        
-      },
+      
       
   };
 

@@ -74,22 +74,6 @@ export default function AppbarComp() {
         style={{
           mt: "30px",
           background: "none",
-          background: `${
-            typeof window !== "undefined" &&
-            (window.location.pathname.includes("/eventss/yantrasearch") ||
-              window.location.pathname.includes("/eventss/cadathon") ||
-              window.location.pathname.includes("/eventss/heatovation") ||
-              window.location.pathname.includes("/eventss/scrapyard") ||
-              window.location.pathname.includes("/eventss/iQIgnition") ||
-              window.location.pathname.includes("/eventss/deathrace") ||
-              window.location.pathname.includes("/eventss/dronePursuit") ||
-              window.location.pathname.includes("/eventss/valorant") ||
-              window.location.pathname.includes("/eventss/fun"))
-              ? "black"
-              : top
-                ? "none"
-                : "linear-gradient(to right, black ,rgb(17 24 39 ),black)"
-          }`,
           position: "fixed",
           left: "50%",
           transform: "translateX(-50%)",

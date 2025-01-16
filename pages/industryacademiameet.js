@@ -1,10 +1,9 @@
 import { Typography, useTheme } from "@mui/material";
-import { Box } from "@mui/system";
+
 import CarouselComp from "../components/CarouselComp";
-import ContactCard from "../components/ContactCard";
+
 import Contact from "../components/Contact";
 import Image from "next/image";
-import BackgroundParticles from "../components/BgParticles2";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import React from 'react';
 
@@ -110,7 +109,7 @@ export default function IAMPage() {
           INDUSTRY ACADEMIA MEET
         </h1>
         <p className=" text-lg font-normal text-gray-400 lg:text-xl sm:px-16 lg:px-48 ">
-          11th February, 2024 - 9AM to 6PM
+          29th January - 1st February, 2024
         </p>
       </div>
       <section className="bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-.svg')]">
@@ -120,23 +119,14 @@ export default function IAMPage() {
             className="   rounded-lg md:p-8 md:p-12 mb-8"
           >
             <p className="text-lg font-normal text-gray-200  ">
-              The industrial meet in IMPETUS is to foster a productive dialogue
-              between industry and academia, provide exposure to students and
-              academics about current and future industrial trends, and equip
-              them with the skills to be future-proof and industry-ready. It
-              seeks to establish interactive communication between industry
-              leaders, academicians, and students, bridging the gap between the
-              company and institute and offering a comprehensive understanding
-              of their needs. The expert-led discussion panels and interactive
-              sessions will enhance the learning experience for participants.
-              This event aims to create a common ground for the collaboration of
-              industry and academia, prioritize knowledge sharing, and
-              facilitate thought-provoking discussions on best practices,
-              employability, and talent identification in campus recruitment.
+            The Industrial Meet at Udbhabani 4.0 aspires to create a unique symposium uniting academia and industry. In the realm of Civil Engineering, academic progress and industrial innovation are deeply intertwined. Achieving diversified and sustainable solutions to modern challenges requires a collaborative approach between the two.
+
+Udbhabani 4.0 seeks to bridge this crucial gap, bringing together industrial leaders, professors, researchers, and civil engineering enthusiasts on a shared platform. This event will serve as a haven for nurturing brilliant engineering minds, fostering dialogue, and paving the way for impactful collaborations that shape the future of Civil Engineering.
+
             </p>
           </div>
           <div></div>
-          <div className="grid md:grid-cols-2 gap-8">
+          {/*<div className="grid md:grid-cols-2 gap-8">
             <div
               data-aos="zoom-in-right"
               className=" bg-gray-800 border   border-gray-700 rounded-lg p-3 md:p-6"
@@ -222,10 +212,10 @@ export default function IAMPage() {
                 members
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
 
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 ">
+        {/*<div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 ">
           <div className="flex justify-center flex-col items-center gap-y-2">
             <h1 className="md:text-3xl text-white font-bold">
               Benefits for the Institute
@@ -283,9 +273,9 @@ export default function IAMPage() {
               </h2>
             </div>
           </div>
-        </div>
+        </div>*/}
 
-        <div className="grid md:grid-cols-2 gap-8">
+        {/*<div className="grid md:grid-cols-2 gap-8">
           <div className="flex items-center justify-center">
             <Image
               className="patimg md:ml-32  ml-0"
@@ -308,8 +298,8 @@ export default function IAMPage() {
               potential collaborative opportunities.
             </p>
           </div>
-        </div>
-        <div className="grid md:grid-cols-2 md:gap-8 gap-1">
+        </div>*/}
+        {/*<div className="grid md:grid-cols-2 md:gap-8 gap-1">
           <div className=" flex flex-col justify-center  lg:items-end items-center text-lg font-normal text-gray-300 mb-4 md:order-1 order-2">
             <h2 className="text-blue-400 md:text-3xl text-2xl md:text-left self-center  text-center md-font-extrabold mb-2">
               Strategy Planning
@@ -331,8 +321,8 @@ export default function IAMPage() {
               height="400"
             />
           </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
+        </div>*/}
+        {/*<div className="grid md:grid-cols-2 gap-8">
           <div className="flex items-center justify-center">
             <Image
               className="patimg"
@@ -354,7 +344,7 @@ export default function IAMPage() {
               potential partnerships and business opportunities..
             </p>
           </div>
-        </div>
+        </div>*/}
       </section>
       <Contact />
     </section>

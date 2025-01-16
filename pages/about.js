@@ -135,21 +135,61 @@ export default function AboutPage() {
         <Image src="/images/udhlogo.png" height="1750" width="750" alt="Socce" />
         <Box className="content" style={{ textAlign: "justify" }}>
           <Typography variant="p">
-            Welcome to Udhabhabani, the pinnacle of innovation and excellence in the field of Civil Engineering! Organized by the esteemed Civil Engineering Department, this technical fest is a celebration of creativity, ingenuity, and cutting-edge advancements in the realm of civil infrastructure. Udhabhabani, derived from the Sanskrit words &quot;Udhabha&quot; meaning construction and &quot;Bani&quot; meaning creation, encapsulates the essence of our event - a platform where budding engineers come together to showcase their prowess in building the future. With a rich tapestry of competitions, workshops, seminars, and exhibitions, Udhabhabani promises to be an immersive experience for participants and attendees alike.
+          The Society of Civil Engineers (SOCCE) proudly organizes UDBHABANI, the annual
+ technical fest of the Department of Civil Engineering, IIEST Shibpur. Returning in 2025 for
+ its fourth edition, UDBHABANI—literally meaning "innovation"—aims to unleash the
+ sharp intellect and creative potential of budding civil engineers. The fest provides a
+ dynamic platform for students across the country to gather, exchange ideas, and
+ showcase their technical expertise in various domains of Civil Engineering. The theme for
+ 4th edition is सजन - The Manifestation.
             <br />
-            So, no matter where you come from, we will make sure you add a feather to your cap on the way back.
+            <br/>
+            Vision: 
+            To establish UDBHABANI as the largest and most impactful technical fest in the eastern region of India,
+             serving as a hub for technical events, competitions and interactions, uniting all stakeholders of civil engineering,
+               thus fostering advancements in civil engineering with enthusiasm.
+            <br/>
+            <br/>
+            Objective:
+            To organize a multifaceted technical festival of the department, that includes activities and events aiming to prepare students for real-world challenges,
+             foster innovation, and provide an engaging and enriching experience beyond academics.
+            <br/>
+            <br/>
+            Mision:
+            To create a dynamic platform that integrates technical expertise, practical application,
+             competitions and events through collaborative efforts of students and faculty,
+             celebrating the  legacy and growth of the prestigious department
           </Typography>
         </Box>
         <Image src="/images/iiestlogon.png" height="300" width="400" alt="SOCCE" />
         <Box className="content" style={{ textAlign: "justify" }}>
           <Typography variant="p">
-            IIEST Shibpur (erstwhile BE college) was established in the year 1856. The Institute located at the bank of the Ganges, bestowed upon with a lush green and cheerful aura, is ranked 35th in NIRF rankings. An institute as old as time holds a rich and diverse history and was one of the pioneer institutes for engineering in India. Apart from diversities in its history, the institute has a versatile academic curriculum spanning from undergraduate to postgraduate courses equipped with academia determined to become engineers, scientists, entrepreneurs, and above all assets to society, supported by esteemed faculties in turning all the aspirations into realities, thus making a diverse network of alumni throughout the eras. This vast academic curriculum is rejuvenated by a bundle of co-curricular and extra-curricular activities provided by the various societies of the institute spanning from action-packed sports societies to strings of words airing in the literary societies and the fresh moves of reflexobeta, bounded together by the melodies of euphony. The spirit of science, tech, and culture is charged up by events and fests organized by the departments of the institute, and neither the department of civil engineering nor its academia fall short in boosting the same. The Department of Civil Engineering, the first step of this institute in this journey of immemorial steps, puts deliberate steps to make the journey filled with fun and learning and so is complemented by the Udbhabani, a Technical fest organized by the Society of Civil Engineers.
+          The Indian Institute of Engineering Science and Technology, Shibpur (IIESTS),
+ stands as India's second-oldest engineering institution, with a legacy dating back
+ to its establishment on November 24, 1856. Formerly known as Bengal
+ Engineering College, it was granted Deemed University status in 1992 and evolved
+ into a full-fledged university in 2004 under the name Bengal Engineering and
+ Science University. Recognizing its remarkable contributions to education and
+ research, the Indian government designated it as an Institute of National
+ Importance, renaming it IIEST, Shibpur in 2014.
+ In the 2024 NIRF Rankings, IIEST is proudly listed among the top 50 institutions in
+ India and holds a prestigious 401–450 position in the QS Asia Rankings 2023.
+ Renowned for its robust global alumni network, the institute has made significant
+ contributions across research, engineering, and science, cementing its reputation
+ as a pioneer in shaping India’s scientific and technological future.
           </Typography>
         </Box>
         <Image src="/images/soccelogo1.png" height="350" width="590" alt="SOCCE" />
         <Box className="content" style={{ textAlign: "justify" }}>
           <Typography variant="p">
-            Within the historic walls of IIEST Shibpur, the Department of Civil Engineering, founded in May 1856 alongside the institute, stands as a beacon of innovation. As the oldest branch within the institution, it boasts a rich legacy rooted in societal impact and academic excellence. From pioneering research in sustainable infrastructure to resilient urban planning, students and faculty push boundaries to address contemporary challenges. Fueling this drive is the Society of Civil Engineers (SOCCE), orchestrating the annual UDBAHBANI event—a testament to student camaraderie and talent. Being the oldest division of IIEST Shibpur, offering both undergraduate and graduate degrees, it conducts research in various fields including transportation, water resources, environmental, geotechnical, and structural engineering. The department has a reputation for academic brilliance and societal significance.
+          Within the historic walls of IIEST Shibpur, the Department of Civil Engineering,
+ established in May 1856 alongside the institute, stands as a beacon of innovation.
+ As the oldest branch of the institution, it boasts a rich heritage rooted in social
+ impact and academic excellence. Since its inception, the department has
+ consistently contributed to nation-building, sustainable development, and
+ pioneering research.  The department celebrates its dynamic spirit by organizing
+ UDBHABANI, an annual event showcasing the camaraderie and talent of the  
+students.
           </Typography>
         </Box>
       </Box>
