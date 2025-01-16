@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import React from 'react';
 
-
 export default function Countdown() {
   const [seconds, setSeconds] = useState(0);
   const [mins, setMins] = useState(0);
@@ -15,7 +14,7 @@ export default function Countdown() {
   const router = useRouter();
 
   const deadline = "January, 30, 2025";
-  const end_deadline = "February, 2, 2025";
+  const end_deadline = "February, 1, 2025";
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
@@ -71,6 +70,7 @@ export default function Countdown() {
       transition: "transform 0.3s ease",
       ":hover": {
         transform: "scale(1.1)",
+        boxShadow: "0 10px 50px rgb(0, 160, 253)",
       },
     },
   };

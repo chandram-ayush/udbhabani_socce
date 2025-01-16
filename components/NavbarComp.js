@@ -1,7 +1,6 @@
 import { Box } from "@mui/system";
 import Link from "next/link";
 import React from 'react';
-
 import { useRouter } from "next/router";
 
 const styles = {
@@ -12,34 +11,30 @@ const styles = {
     display: "grid",
     width: "100%",
     gridTemplateColumns: {
-      lg: "repeat(4,1fr) 1.5fr",
-      sm: "repeat(4,1fr) 1.5fr",
-      xs: "repeat(4,1fr) 1.5fr",
+      lg: "repeat(4, 1fr) 1.5fr",
+      sm: "repeat(4, 1fr) 1.5fr",
+      xs: "repeat(4, 1fr) 1.5fr",
     },
-    flexDirection: "row",
     a: {
       fontSize: "16.8px",
       textDecoration: "none",
       color: "#ffffff",
       fontWeight: "500",
       display: "flex",
-      alignItems: "left",
+      alignItems: "center",
       justifyContent: "center",
       cursor: "default",
-      transition: "all 300ms cubic-bezier(0.075, 0.82, 0.165, 1)",
       ".bor": {
         width: "70%",
         textAlign: "center",
       },
       span: {
         position: "relative",
-        display: " inline-block",
-        transition: " color 0.3s ease",
+        display: "inline-block",
         ":hover": {
           color: "#ffffff",
           transform: "scale(1.1)",
           cursor: "pointer",
-          transition: "all 0.4s ease",
         },
         ":hover::before": {
           content: '""',
@@ -47,7 +42,6 @@ const styles = {
           left: 0,
           bottom: 0,
           width: "100%",
-          transition: "width 0.4s",
         },
       },
     },
@@ -108,17 +102,6 @@ export default function NavbarComp() {
               <span>Meet Our Team</span>
             </div>
           </Link>
-          {/* <Link
-            href="/industryacademiameet"
-            style={{ textAlign: "center" }}
-            className={
-              router.pathname === "/industryacademiameet" ? "active" : ""
-            }
-          >
-            <div className="bor" style={{ width: "100%" }}>
-              <span>Industry Academia Meet</span>
-            </div>
-          </Link> */}
         </Box>
       </Box>
     </Box>
