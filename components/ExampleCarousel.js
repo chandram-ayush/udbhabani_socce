@@ -50,7 +50,7 @@ const ExampleCarousel = ({ children }) => {
 
   // Effect to automatically slide every 5 seconds
   useEffect(() => {
-    const interval = setInterval(nextSlide, 100000); // Change interval duration as needed (in milliseconds)
+    const interval = setInterval(nextSlide, 3000); // Change interval duration as needed (in milliseconds)
     return () => clearInterval(interval); // Cleanup function to clear interval on component unmount
   }, []);
 

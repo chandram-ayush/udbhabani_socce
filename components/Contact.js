@@ -113,7 +113,7 @@ export default function Contact() {
         >
           <Box>
             <Typography variant="p" sx={CStyle}>
-              Dheeraj Gaur (Coordiantor)
+              Dheeraj Gaur (Secretary)
             </Typography>
             <Typography variant="p" sx={CStyle}>
               +91 9828430754

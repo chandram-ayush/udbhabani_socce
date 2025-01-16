@@ -30,11 +30,6 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/home.js"
     ],
-    "/seminar": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/seminar.js"
-    ],
     "/sponsors": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
