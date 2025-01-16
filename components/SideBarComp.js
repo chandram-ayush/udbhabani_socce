@@ -20,13 +20,13 @@ export default function SideBarComp() {
         path = "/home";
         break;
       case "Events":
-        path = "/home";
+        path = "/events";
         break;
       case "Seminar":
-        path = "/home";
+        path = "/seminar";
         break;
       case "Sponsors":
-        path = "/home";
+        path = "/sponsors";
         break;
       case "Team":
         path = "/home";

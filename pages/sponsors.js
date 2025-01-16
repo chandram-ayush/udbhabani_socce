@@ -21,11 +21,11 @@ export default function SponsorsPage() {
     h3: { mt: "100px", mb: "50px", fontSize: "54px" },
   };
   const sponsor = {
-    sponsor1: { imgname: "Gainwell.png" },
-    sponsor2: { imgname: "Mahr.jpg" },
-    sponsor3: { imgname: "Purahsara.png" },
-    sponsor4: { imgname: "Edugraph.jpg" },
-    sponsor5: { imgname: "IOCL.jpg" },
+    sponsor1: { imgname: "ambuja.png" },
+    sponsor2: { imgname: "dalmia.jpg" },
+    sponsor3: { imgname: "electrosteel.png" },
+    sponsor4: { imgname: "fmfrnds.jpg" },
+    sponsor5: { imgname: "graham.jpg" },
     sponsor6: { imgname: "ISHRAE.jpg" },
     sponsor7: { imgname: "ISHRAE.jpg" },
     sponsor8: { imgname: "Lalbaba.jpg" },
@@ -35,19 +35,21 @@ export default function SponsorsPage() {
     sponsor12: { imgname: "GEMS.jpg" },
   };
   const sponsorData = {
-    sponsor1: { imgname: "Logiczap.png" },
-    sponsor2: { imgname: "elearnmarkets.jpg" },
-    sponsor3: { imgname: "idp.jpg" },
-    sponsor4: { imgname: "iic.jpg" },
-    // sponsor5: { imgname: "IMechE.jpg" },
-    // sponsor6: { imgname: "Mahr.jpg" },
-    sponsor7: { imgname: "moople.jpg" },
-    sponsor8: { imgname: "ThinkAgainLab.jpg" },
-    sponsor9: { imgname: "Alo bus.png" },
-    sponsor10: { imgname: "Asawa insulation.png" },
-    sponsor11: { imgname: "Dyna Temp.png" },
-    sponsor12: { imgname: "Roasted.png" },
-    sponsor13: { imgname: "7Spices.png" },
+    sponsor1: { imgname: "ambuja.png" },
+    sponsor2: { imgname: "dalmia.png" },
+    sponsor3: { imgname: "itd.png" },
+    sponsor4: { imgname: "fmfrnds.png" },
+    sponsor5: { imgname: "jsw.png" },
+    sponsor7: { imgname: "dastur.png" },
+    sponsor8: { imgname: "adpt.png" },
+    sponsor9: { imgname: "graham.png" },
+    sponsor10: { imgname: "simoco.png" },
+    sponsor11: { imgname: "simplex.png" },
+    sponsor12: { imgname: "teqip.png" },
+    sponsor13: { imgname: "nuvovo.png" },
+    sponsor14: { imgname: "innovative.png" },
+    sponsor15: { imgname: "chandra.png" },
+    sponsor16: { imgname: "rainbow.png" },
   };
 
   return (
@@ -88,7 +90,7 @@ export default function SponsorsPage() {
         </Box>
       </Box>*/}
       <Box sx={styles} className="center1" style={{ marginTop: "100px" }}>
-        <Typography variant="h1">Past Sponsors</Typography>
+        <Typography variant="h1">Previous Sponsors</Typography>
         <Box className="cards">
           {Object.values(sponsorData).map((sponsor, index) => (
             <SponsorCard key={index} sponsor={sponsor} />

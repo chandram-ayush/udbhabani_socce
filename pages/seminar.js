@@ -1,3 +1,3 @@
-import industryacademiameet from "../pages/events/expo";
+import industryacademiameet from "../pages/industryacademiameet";
 export default industryacademiameet;
 

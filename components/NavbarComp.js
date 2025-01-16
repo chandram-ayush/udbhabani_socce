@@ -77,24 +77,24 @@ export default function NavbarComp() {
             </div>
           </Link>
           <Link
-            href="/home"
-            className={router.pathname === "/home" ? "active" : ""}
+            href="/events"
+            className={router.pathname === "/events" ? "active" : ""}
           >
             <div className="bor">
               <span>Events</span>
             </div>
           </Link>
           <Link
-            href="/home"
-            className={router.pathname === "/home" ? "active" : ""}
+            href="/seminar"
+            className={router.pathname === "/seminar" ? "active" : ""}
           >
             <div className="bor">
               <span>Seminar&apos;s</span>
             </div>
           </Link>
           <Link
-            href="/home"
-            className={router.pathname === "/home" ? "active" : ""}
+            href="/sponsors"
+            className={router.pathname === "/sponsors" ? "active" : ""}
           >
             <div className="bor">
               <span>Sponsors</span>
