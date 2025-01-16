@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Tab, Tabs } from "@mui/material";
+import { Box, Typography, Tab, Tabs, useTheme } from "@mui/material";
 import { useState } from "react";
 import Contact from "../components/Contact";
 import ExampleCarousel from "../components/ExampleCarousel";
@@ -31,6 +31,7 @@ function TabPanel(props) {
 }
 
 export default function TeamPage() {
+  const theme = useTheme();
   const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
@@ -40,25 +41,25 @@ export default function TeamPage() {
     person1: {
       name: "Brainwave",
       imgname: "21.png",
-      registrationLink: "/events/debate",
+      registrationLink: "/events/brainwave",
          
     },
       person2: {
         name: "Tech Canvas",
         imgname: "24.png",
-        registrationLink: "/events/bridgecraft",
+        registrationLink: "/events/techcanvas",
         
       },
       person3: {
         name: "Cad Clash",
         imgname: "25.png",
-        registrationLink: "/events/civinar",
+        registrationLink: "/events/cadclash",
         
       },
       person4: {
         name: "Build Vision",
         imgname: "16.png",
-        registrationLink: "/events/catalyst",
+        registrationLink: "/events/buildvision",
         
       },
       person5: {
@@ -70,25 +71,25 @@ export default function TeamPage() {
       person6: {
         name: "Bridge Masters",
         imgname:"17.png",
-          registrationLink: "/events/quiz",
+          registrationLink: "/events/bridgemaster",
         
       },
       person7: {
         name: "Walk-in",
         imgname: "23.png",
-        registrationLink: "/events/quest",
+        registrationLink: "/events/walkin",
         
       },
       person8: {
         name: "Elevate City",
         imgname: "18.png",
-        registrationLink: "/events/bgmi",
+        registrationLink: "/events/elevatecity",
         
       },
       person9: {
         name: "Pitch Perfect",
         imgname: "20.png",
-        registrationLink: "/events/valorant",
+        registrationLink: "/events/pitchperfect",
         
       },
       
@@ -132,7 +133,7 @@ export default function TeamPage() {
           </Box>
         </Box>
         </Box>
-      <Contact />
+      
     </>
   );
 }

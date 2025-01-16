@@ -162,7 +162,7 @@ export default function Contact() {
 
         <Box className="terms center1 ">
           <Link
-            href="/team"
+            href="/home"
             className="border-b border-gray-500 cursor-pointer "
             style={{
               color: "white",

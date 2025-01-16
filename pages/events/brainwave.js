@@ -81,52 +81,44 @@ export default function BrainwavePage() {
           </h2>
           
           <p className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
-            Calling all tech enthusiasts and future innovators! We&apos;re
-            thrilled to announce an exclusive seminar and workshop by Blackbird
-            Robotix, covering everything from manual robotics to UAV
-            development!
+          “BRAINWAVE” promises to be an exciting intellectual
+ showdown. Participants will tackle challenging
+ problem statements, presenting innovative solutions
+ through well-crafted papers and dynamic
+ presentations. This platform encourages students to
+ push their boundaries, applying theoretical knowledge
+ to real-world engineering problems. It&apos;s a unique
+ opportunity to showcase creativity, analytical thinking,
+ and technical expertise, all while engaging in
+ meaningful discussions with peers and experts. The
+ session is set to inspire the next generation of civil
+ engineers to think boldly and innovatively.
             <br></br>
             
-            <br></br>
-            Join us for an exciting journey into the world of robotics, where
-            you&apos;ll :<br></br>
-            1. Learn the fundamentals of manual robotics.<br></br>
-            2. Explore the realm of autonomous robotics.<br></br>
-            3. Discover the thrill of combat robotics.<br></br>
-            4. Dive into UAV development and unleash your creativity!<br></br>
-            <br></br>
-            Led by experts from Blackbird Robotix, this seminar promises to be
-            an immersive experience filled with knowledge-sharing, hands-on
-            learning, and endless inspiration.
-            <br></br>
-            <br></br>
-            Whether you&apos;re a seasoned robotics enthusiast or just starting
-            your journey, this is an opportunity you don&apos;t want to miss!
-            <br></br>
-            <br></br>
+            
             </p>
             
             <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               
               Venue:
-              Conference Room, Dept. of Mechanical Engg.
+              Dept. of Civil Engg.
             </span>
             <div className="flex justify-center text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               <button
                 type="button"
                 className="mt-2 font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                 onClick={(event) =>
-                  (window.location.href = "https://forms.gle/qJ4xj4E4Fx8gC8FE8")
+                  (window.location.href = "https://forms.gle/qC8FE8")
                 }
               >
                 Register Now
               </button>
             </div>
           </div>
-        <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
+          <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
           <img
             className="md:w-2/3 w-3/4  "
-            src="/images/RoboticsSeminar.jpg"
+            src="/images/comingsoon.png"
             alt="Seminar"
           />
         </div>
