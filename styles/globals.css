@@ -7,7 +7,7 @@
 
 html,
 body {
-  background: linear-gradient(to right, black, rgb(17 24 39), black);
+  background: linear-gradient(to right, #00020e, rgb(53, 82, 139), #00020e);
   /* background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(17, 24, 39, 1), rgba(0, 0, 0, 1)), linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 0, 0, 1)); */
 }
 

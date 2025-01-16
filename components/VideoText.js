@@ -73,7 +73,7 @@ export default function VideoText({ hideIt }) {
         }}
       >
         <Typography variant="h5">IIEST Shibpur&apos;s</Typography>
-        <Typography variant="h5">1th - 11th February</Typography>
+        <Typography variant="h5">29 January - 1 February 2025</Typography>
       </Box>
       <Box className="aboutUdbhabani center1">
               <Image src="/images/udhlogo.png" height="1750" width="750" alt="Socce" />

@@ -67,7 +67,7 @@ export default function Countdown() {
       lineHeight: "200px", // Centering text vertically
       position: "relative",
       animation: "float 4s ease-in-out infinite",
-      boxShadow: "0 10px 50px rgba(255, 0, 0, 0.2)",
+      boxShadow: "0 10px 50px rgb(0, 160, 253)",
       transition: "transform 0.3s ease",
       ":hover": {
         transform: "scale(1.1)",
