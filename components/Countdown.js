@@ -47,9 +47,11 @@ export default function Countdown() {
       backdropFilter: "blur(5px)",
     },
     "@keyframes float": {
-      "0%": { transform: "translateY(0px)" },
-      "50%": { transform: "translateY(-20px)" },
-      "100%": { transform: "translateY(0px)" },
+      "0%": { transform: "translate(0px, 0px)" },
+      "25%": { transform: "translate(40px, -20px)" },
+      "50%": { transform: "translate(0px, -40px)" },
+      "75%": { transform: "translate(-40px, -40px)" },
+      "100%": { transform: "translate(0px, 0px)" },
     },
     bubbleButton: {
       display: "inline-block",
@@ -118,12 +120,6 @@ export default function Countdown() {
           <Typography variant="p">sec</Typography>
         </Box>
       </Box>
-      {/*<Typography
-        sx={{ margin: "10px 0 20px", fontSize: "24px !important", zIndex: "2" }}
-        variant="h2"
-      >
-        TO START
-      </Typography>*/}
       <Button
         sx={styles.bubbleButton}
         onClick={() => router.push("/home")}
