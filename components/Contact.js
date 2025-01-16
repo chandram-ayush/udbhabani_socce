@@ -113,22 +113,22 @@ export default function Contact() {
         >
           <Box>
             <Typography variant="p" sx={CStyle}>
-              abc (Coordiantor)
+              Dheeraj Gaur (Coordiantor)
             </Typography>
             <Typography variant="p" sx={CStyle}>
-              +91 78088413
+              +91 9828430754
             </Typography>
-            <Typography variant="p" sx={CStyle}>
+            {/*<Typography variant="p" sx={CStyle}>
               abc (Coordiantor)
             </Typography>
             <Typography variant="p" sx={CStyle}>
               +91 93694664
-            </Typography>
+            </Typography>*/}
           </Box>
           <Box className=" center2">
             <IconButton
               onClick={(event) =>
-                (window.location.href = "https://www.facebook.com/smeiiests/")
+                (window.location.href = "https://www.facebook.com/SOCCEIIESTS?mibextid=ZbWKwL")
               }
             >
               <FacebookIcon className="transform transition duration-100 hover:scale-110 ease-in-out" />
@@ -136,7 +136,7 @@ export default function Contact() {
             <IconButton
               onClick={(event) =>
                 (window.location.href =
-                  "https://www.linkedin.com/in/society-of-mechanical-engineers-iiest-shibpur-89244a193")
+                  "https://www.linkedin.com/company/socce-iiest-shibpur/")
               }
             >
               <LinkedInIcon className="transform transition duration-100 hover:scale-110 ease-in-out" />
@@ -144,19 +144,19 @@ export default function Contact() {
             <IconButton
               onClick={(event) =>
                 (window.location.href =
-                  "https://www.instagram.com/sme.iiests/?hl=en")
+                  "https://www.instagram.com/socce.iiests?igsh=MXJoZDR0emo5ZmhsMQ==")
               }
             >
               <InstagramIcon className="transform transition duration-100 hover:scale-110 ease-in-out" />
             </IconButton>
-            <IconButton
+            {/*<IconButton
               onClick={(event) =>
                 (window.location.href =
                   "https://www.youtube.com/@smeiiests7235")
               }
             >
               <YouTubeIcon className="transform transition duration-100 hover:scale-110 ease-in-out" />
-            </IconButton>
+            </IconButton>*/}
           </Box>
         </Box>
 
