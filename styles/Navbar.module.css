@@ -1,0 +1,66 @@
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    background-color: transparent; /* Transparent background */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .nav a {
+    font-size: 16.8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+    padding: 8px 16px; /* Padding to make the buttons clickable */
+    border-radius: 5px; /* Optional: Slightly rounded corners */
+    background-color: black; /* Button background color */
+  }
+  
+  .nav a:hover {
+    background-color: #333333; /* Slightly lighter black for hover effect */
+    transform: scale(1.1);
+  }
+  
+  .bor {
+    width: 70%;
+    text-align: center;
+  }
+  
+  .nav a span {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .active .bor {
+    border-bottom: 2px solid cyan;
+  }
+  
+  .nav a span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent; /* Default to no underline */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav a:hover span::after {
+    background-color: cyan; /* Underline on hover */
+  }
+  
