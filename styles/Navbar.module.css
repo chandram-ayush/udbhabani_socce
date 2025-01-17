@@ -61,6 +61,6 @@
   }
   
   .nav a:hover span::after {
-    background-color: cyan; /* Underline on hover */
+    background-color: cyan; 
   }
   
