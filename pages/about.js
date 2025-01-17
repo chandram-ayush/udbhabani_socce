@@ -158,7 +158,7 @@ export default function AboutPage() {
             Mision:
             To create a dynamic platform that integrates technical expertise, practical application,
              competitions and events through collaborative efforts of students and faculty,
-             celebrating the  legacy and growth of the prestigious department
+             celebrating the  legacy and growth of the prestigious department.
           </Typography>
         </Box>
         <Image src="/images/iiestlogon.png" height="300" width="400" alt="SOCCE" />

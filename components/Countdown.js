@@ -48,7 +48,7 @@ export default function Countdown() {
     },
     "@keyframes float": {
       "0%": { transform: "translate(0px, 0px)" },
-      "25%": { transform: "translate(40px, -20px)" },
+      "25%": { transform: "translate(20px, -20px)" },
       "50%": { transform: "translate(0px, -40px)" },
       "75%": { transform: "translate(-40px, -40px)" },
       "100%": { transform: "translate(0px, 0px)" },
