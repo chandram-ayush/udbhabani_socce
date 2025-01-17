@@ -3,9 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/home": "pages/home.js",
-  "/events": "pages/events.js",
-  "/seminar": "pages/seminar.js",
-  "/sponsors": "pages/sponsors.js",
-  "/team": "pages/team.js"
+  "/home": "pages/home.js"
 }
