@@ -227,7 +227,7 @@ export default function TeamPage() {
       name: "Yashwika Sanjay",
       phone: "vikas.souvenir@gmail.com",
       post: "Souvenir Head",
-      imgname: "yashwika.jpeg",
+      imgname: "Yashwika.jpeg",
       insta: "https://www.instagram.com/yashwika_10",
       link: "https://www.linkedin.com/in/yashwika-sanjay-141639224/",
     },
