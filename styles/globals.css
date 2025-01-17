@@ -395,3 +395,8 @@ img:hover {
   font-size: 36px;
   margin-bottom: 20px;
 }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

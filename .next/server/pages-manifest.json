@@ -2,5 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
   "/team": "pages/team.js"
+=======
+  "/": "pages/index.js",
+  "/seminar": "pages/seminar.js",
+  "/events": "pages/events.js",
+  "/home": "pages/home.js",
+  "/sponsors": "pages/sponsors.js"
+>>>>>>> fc6619a36e6640052b995dee68a0579f31a7fa32
 }
