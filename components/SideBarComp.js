@@ -29,7 +29,7 @@ export default function SideBarComp() {
         path = "/sponsors";
         break;
       case "Team":
-        path = "/home";
+        path = "/team";
         break;
       default:
         path = "/";
