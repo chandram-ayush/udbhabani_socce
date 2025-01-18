@@ -65,9 +65,9 @@ const ContactCard = ({ person }) => {
         onMouseLeave={offHover}
         className={`text ${hover ? "textHover" : ""}`}
       >
-        <a href={person.insta}>
+        {/*<a href={person.insta}>
           <InstagramIcon />
-        </a>
+        </a>*/}
         <a href={person.link}>
           <LinkedInIcon />
         </a>
