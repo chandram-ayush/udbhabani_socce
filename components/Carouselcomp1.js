@@ -61,12 +61,17 @@ export default function CarouselComp1() {
       >
         {urls.map((url) => (
           <Box key={url} sx={styles}>
-            <Image
+            {/*<Image
               src={url}
               alt="abacus"
               layout="fill"
               objectFit="cover"
               key={url}
+            />*/}
+            <Image 
+                src={url}
+                fill 
+                style={{ objectFit: 'cover' }} 
             />
           </Box>
         ))}
