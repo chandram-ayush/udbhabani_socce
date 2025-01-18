@@ -17,15 +17,15 @@ export default function CarouselComp() {
   };
 
   const urls = [
-    "/images/soccelogo1.png",
-    "/images/soccelogo1.png",
-    "/images/soccelogo1.png",
-    "/images/soccelogo1.png",
-    "/images/soccelogo1.png",
-    "/images/soccelogo1.png",
-    "/images/soccelogo1.png",
-    "/images/soccelogo1.png",
-    "/images/soccelogo1.png",
+    "/images/indimg3.jpeg",
+    "/images/indimg1.jpeg",
+    "/images/indimg2.jpeg",
+    "/images/indimg4.jpeg",
+    "/images/indimg5.jpeg",
+    "/images/indimg6.jpeg",
+    "/images/indimg7.jpeg",
+    "/images/indimg8.jpeg",
+    "/images/indimg9.jpeg",
   ];
 
   const styles = {

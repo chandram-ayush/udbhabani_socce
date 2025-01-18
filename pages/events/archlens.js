@@ -86,17 +86,18 @@ export default function ArchlensPage() {
           </p>
 
             
-            <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
-              
-            Venue:
-            Dept. of Civil Engg.
-            </span>
+          <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
+            <br/>
+            Coordiantor: Shivanshu Gupta and Swyam
+            <br/>
+            Venue:  First Lobby, Dept. of Civil Engg.
+          </span>
             <div className="flex justify-center text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               <button
                 type="button"
                 className="mt-2 font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                 onClick={(event) =>
-                  (window.location.href = "https://forms.gle/C8FE8")
+                  (window.location.href = "https://forms.gle/6MduKUXYmSdDXb9b7")
                 }
               >
                 Register Now

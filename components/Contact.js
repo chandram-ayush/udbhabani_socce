@@ -118,6 +118,12 @@ export default function Contact() {
             <Typography variant="p" sx={CStyle}>
               +91 9828430754
             </Typography>
+            <Typography variant="p" sx={CStyle}>
+              Dipu Shaw (Assistant Secretary)
+            </Typography>
+            <Typography variant="p" sx={CStyle}>
+              +91 7699259827
+            </Typography>
             {/*<Typography variant="p" sx={CStyle}>
               abc (Coordiantor)
             </Typography>

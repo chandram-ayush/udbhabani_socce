@@ -147,7 +147,7 @@ Udbhabani 4.0 seeks to bridge this crucial gap, bringing together industrial lea
                 Aim
               </a>
               <p className="text-lg font-normal  text-gray-300 mb-4">
-                IMPETUS aims to create strong interactive communication between
+                aims to create strong interactive communication between
                 leading officials from multiple indus- tries, academicians and
                 prospective students. The meet will cushion the process of
                 campus engagement be- tween the companies and the insti- tute
@@ -338,7 +338,7 @@ Udbhabani 4.0 seeks to bridge this crucial gap, bringing together industrial lea
             </h2>
             <p className="text-left px-3 md:w-2/3  md:px-0 ">
               An opportunity to interact with prominent delegates from other
-              industries and research institutes during IMPETUS 2023.It can help
+              industries and research institutes during 2023.It can help
               build connections with industries by providing opportunities for
               networking, knowledge exchange, and collaboration, leading to
               potential partnerships and business opportunities..

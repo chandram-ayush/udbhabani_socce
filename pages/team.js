@@ -96,6 +96,14 @@ export default function TeamPage() {
       insta: "sohom_073",
       link: "https://www.linkedin.com/in/sohom-chakraborty-173566314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
+    person4: {
+      name: "Dubakula Nithin Kumar ",
+      phone: "2023ac.in",
+      post: "Sponsorship Executive",
+      imgname: "DUBAKULA.jpg",
+      insta: "sohom_073",
+      link: "https://www.linkedin.com/in/dubakula-nithin-kumar-6234a7292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
      
   };
   const finance_person = {
@@ -108,6 +116,14 @@ export default function TeamPage() {
       link: "https://www.linkedin.com/in/barairajdeep01?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     person2: {
+      name: "Kaushal Gupta",
+      phone: "amitsharma@gmail.com",
+      post: "Finance Head",
+      imgname: "kaushal.jpeg",
+      insta: "https://www.instagram.com",
+      link: "https://www.linkedin.com/in/kaushal-kumar-54aa5225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    person3: {
       name: "Aditya Raj Verma",
       phone: "kiranverma@finance.com",
       post: "Finance Executive",
@@ -115,7 +131,7 @@ export default function TeamPage() {
       insta: "https://www.instagram.com/i_amadityarajverma",
       link: "https://www.linkedin.com/in/iamadityarajverma",
     },
-    person3: {
+    person4: {
       name: "Ayush Gupta",
       phone: "kiranverma@finance.com",
       post: "Finance Executive",
@@ -197,14 +213,22 @@ export default function TeamPage() {
   
   const food_person = {
     person1: {
-      name: "Sumaiya kulsum ",
+      name: "Awinash Gupta",
       phone: "rahul.food@gmail.com",
       post: "Food Committee Head",
+      imgname: "Awinash.jpg",
+      insta: "https://www.instagram.com/",
+      link: "https://www.linkedin.com/in/awinash-gupta-7b79a823b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    person2: {
+      name: "Sumaiya kulsum ",
+      phone: "rahul.food@gmail.com",
+      post: "Food Coordinator",
       imgname: "SUMAIYA.jpg",
       insta: "https://www.instagram.com/",
       link: "https://www.linkedin.com/in/sumaiya-kulsum-b73b30264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
-    person2: {
+    person3: {
       name: "Abhishek Kumar",
       phone: "pooja.food@gmail.com",
       post: "Food Coordinator",
@@ -212,7 +236,7 @@ export default function TeamPage() {
       insta: "un.filtered.abhi",
       link: "https://www.linkedin.com/in/abhishek-kumar-9bbb492a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
-    person3: {
+    person4: {
       name: "Erikilla Ashish",
       phone: "pooja.food@gmail.com",
       post: "Food Coordinator",
@@ -282,6 +306,7 @@ export default function TeamPage() {
             <ContactCard person={finance_person.person1} />
             <ContactCard person={finance_person.person2} />
             <ContactCard person={finance_person.person3} />
+            <ContactCard person={finance_person.person4} />
             {/* Add more finance team members as needed */}
           </Box>
         </TabPanel>
@@ -314,6 +339,7 @@ export default function TeamPage() {
             <ContactCard person={food_person.person1} />
             <ContactCard person={food_person.person2} />
             <ContactCard person={food_person.person3} />
+            <ContactCard person={food_person.person4} />
           </Box>
         </TabPanel>
   
@@ -323,6 +349,7 @@ export default function TeamPage() {
             <ContactCard person={publicity_person.person1} />
             <ContactCard person={publicity_person.person2} />
             <ContactCard person={publicity_person.person3} />
+            <ContactCard person={publicity_person.person4} />
             {/* Add more publicity and fundraising team members */}
           </Box>
         </TabPanel>
