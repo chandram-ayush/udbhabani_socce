@@ -1,31 +1,109 @@
+import { Box } from "@mui/system";
 import Link from "next/link";
-import React from "react";
+import React from 'react';
 import { useRouter } from "next/router";
-import styles from "../styles/Navbar.module.css";
+
+const styles = {
+  width: "100%",
+  maxWidth: "1200px",
+
+  ".nav": {
+    display: "grid",
+    width: "100%",
+    gridTemplateColumns: {
+      lg: "repeat(5, 1fr)",
+      sm: "repeat(5, 1fr)",
+      xs: "repeat(5, 1fr)",
+    },
+    a: {
+      fontSize: "16.8px",
+      textDecoration: "none",
+      color: "#ffffff",
+      fontWeight: "500",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      cursor: "pointer", // Changed from "default" to "pointer"
+      ".bor": {
+        width: "70%",
+        textAlign: "center",
+      },
+      span: {
+        position: "relative",
+        display: "inline-block",
+        ":hover": {
+          color: "#ffffff",
+          transform: "scale(1.1)",
+          cursor: "pointer",
+        },
+        ":hover::before": {
+          content: '""',
+          position: "absolute",
+          left: 0,
+          bottom: 0,
+          width: "100%",
+        },
+      },
+    },
+  },
+  "a.active": {
+    ".bor": {
+      borderBottom: "2px solid cyan",
+    },
+  },
+};
 
 export default function NavbarComp() {
   const router = useRouter();
-
   return (
-    <nav className={styles.navbar}>
-      <div className={styles.nav}>
-        {[
-          { name: "Home", path: "/home" },
-          { name: "Events", path: "/events" },
-          { name: "Seminars", path: "/seminar" },
-          { name: "Sponsors", path: "/sponsors" },
-          { name: "Meet Our Team", path: "/team" },
-        ].map((link) => (
-          <Link key={link.path} href={link.path} legacyBehavior>
-            <div className={router.pathname === link.path ? styles.active : ""}>
-              <div className={styles.bor}>
-                <span>{link.name}</span>
-              </div>
+    <Box
+      className="center1"
+      sx={{ backgroundColor: "none", width: "78%", maxWidth: "900px" }}
+    >
+      <Box sx={styles} className="center1">
+        <Box className="nav">
+          <Link
+            href="/home"
+            className={router.pathname === "/home" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Home</span>
             </div>
           </Link>
-        ))}
-      </div>
-    </nav>
+          <Link
+            href="/events"
+            className={router.pathname === "/events" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Events</span>
+            </div>
+          </Link>
+          <Link
+            href="/seminar"
+            className={router.pathname === "/seminar" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Seminars</span>
+            </div>
+          </Link>
+          <Link
+            href="/sponsors"
+            className={router.pathname === "/sponsors" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Sponsors</span>
+            </div>
+          </Link>
+          <Link
+            href="/team" // Changed from "/home" to "/team"
+            className={router.pathname === "/team" ? "active" : ""}
+          >
+            <div className="bor">
+              <span>Team</span>
+            </div>
+          </Link>
+        </Box>
+      </Box>
+    </Box>
   );
 }
-  

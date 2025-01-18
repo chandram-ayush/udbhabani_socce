@@ -1,7 +1,7 @@
-.navbar {
+/*.navbar {
     width: 100%;
     max-width: 1200px;
-    background-color: transparent; /* Transparent background */
+    background-color: transparent;
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -25,13 +25,13 @@
     justify-content: center;
     cursor: pointer;
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
-    padding: 8px 16px; /* Padding to make the buttons clickable */
-    border-radius: 5px; /* Optional: Slightly rounded corners */
-    background-color: black; /* Button background color */
+    padding: 8px 16px;
+    border-radius: 5px; 
+    background-color: black; 
   }
   
   .nav a:hover {
-    background-color: #333333; /* Slightly lighter black for hover effect */
+    background-color: #333333; 
     transform: scale(1.1);
   }
   
@@ -56,11 +56,11 @@
     bottom: 0;
     width: 100%;
     height: 2px;
-    background-color: transparent; /* Default to no underline */
+    background-color: transparent; 
     transition: background-color 0.3s ease-in-out;
   }
   
   .nav a:hover span::after {
     background-color: cyan; 
-  }
+  }*/
   
