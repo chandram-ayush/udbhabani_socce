@@ -12,7 +12,7 @@ export default function AboutPage() {
   const videoRef = useRef(null);
   const [muted, setMuted] = useState(true);
   const theme = useTheme();
-  const videoId = "Wxh_NCanxg0";
+  const videoId = "NxWunH4kaiA";
 
   const styles = {
     width: "100vw",

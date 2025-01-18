@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/-juZgSxPnhx_9uO5rQBGE/_buildManifest.js",
-    "static/-juZgSxPnhx_9uO5rQBGE/_ssgManifest.js"
+    "static/fhmlsWh2RNn2eNLHbA0f9/_buildManifest.js",
+    "static/fhmlsWh2RNn2eNLHbA0f9/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "rootMainFilesTree": {},
@@ -40,7 +40,7 @@
       "static/chunks/583-ebb8af092c3b0a2e.js",
       "static/chunks/106-e843b9e8a88a31ef.js",
       "static/chunks/17-d8c2c532bcbf36c5.js",
-      "static/chunks/297-c6dcb819c53b94de.js",
+      "static/chunks/297-3f3e34a5f9ce595d.js",
       "static/chunks/pages/about-0db11d4876ceec78.js"
     ],
     "/events": [
@@ -154,7 +154,7 @@
       "static/chunks/583-ebb8af092c3b0a2e.js",
       "static/chunks/106-e843b9e8a88a31ef.js",
       "static/chunks/17-d8c2c532bcbf36c5.js",
-      "static/chunks/297-c6dcb819c53b94de.js",
+      "static/chunks/297-3f3e34a5f9ce595d.js",
       "static/chunks/pages/home-15ec9ae1465a0615.js"
     ],
     "/industryacademiameet": [
