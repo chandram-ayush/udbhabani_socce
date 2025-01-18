@@ -96,7 +96,7 @@ export default function Contact() {
               color: "#ccc",
             }}
           >
-            Welcome to Udhabhabani, the pinnacle of innovation and excellence in the field of Civil Engineering! Organized by the esteemed Civil Engineering Department.
+            Welcome to Udbhabani, the pinnacle of innovation and excellence in the field of Civil Engineering! Organized by the esteemed Civil Engineering Department.
           </Typography>
         </Box>
 
@@ -162,7 +162,7 @@ export default function Contact() {
 
         <Box className="terms center1 ">
           <Link
-            href="/home"
+            href="/team"
             className="border-b border-gray-500 cursor-pointer "
             style={{
               color: "white",
@@ -173,7 +173,7 @@ export default function Contact() {
           </Link>
 
           <em style={{ margin: "10px 0 20px 0", textAlign: "center" }}>
-            Copyright © 2024 - All rights reserved by Udhabhabani
+            Copyright © 2024 - All rights reserved by Udbhabani
           </em>
         </Box>
       </Box>

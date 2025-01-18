@@ -27,9 +27,9 @@ const containerStyles = {
 const aboutContent = [
   {
     name: "Udhbhabani",
-    text: "Welcome to Udhabhabani, the pinnacle of innovation and excellence in the field of Civil Engineering! Organized by the esteemed Civil Engineering Department, this technical fest is a celebration of creativity, ingenuity, and cutting-edge advancements in the realm of civil infrastructure.Udhabhabani, derived from the Sanskrit words Udhabha meaning construction and Bani meaning creation, encapsulates the essence of our event - a platform where budding engineers come together to showcase their prowess in building the future. With a rich tapestry of competitions, workshops, seminars, and exhibitions, Udhabhabani promises to be an immersive experience for participants and attendees alike. So, no matter where you come from, we will make sure you add a feather to your cap on the way back.",
+    text: "Welcome to Udbhabani, the pinnacle of innovation and excellence in the field of Civil Engineering! Organized by the esteemed Civil Engineering Department, this technical fest is a celebration of creativity, ingenuity, and cutting-edge advancements in the realm of civil infrastructure.Udbhabani, derived from the Sanskrit words Udhabha meaning construction and Bani meaning creation, encapsulates the essence of our event - a platform where budding engineers come together to showcase their prowess in building the future. With a rich tapestry of competitions, workshops, seminars, and exhibitions, Udbhabani promises to be an immersive experience for participants and attendees alike. So, no matter where you come from, we will make sure you add a feather to your cap on the way back.",
     link: "/home",
-    img: "udhabhabani.png",
+    img: "Udbhabani.png",
   },
   
 ];
