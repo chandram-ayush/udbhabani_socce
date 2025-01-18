@@ -81,12 +81,10 @@ export default function ElevatecityPage() {
           </h2>
           
           <p className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
-          The "ELEVATE-CITY" event takes urban planning to a whole new level. In this imaginative competition, participants are tasked with designing a modern colony in the most extraordinary environments—think Moon-cities, Underground-Cities, or even floating islands. The challenge isn’t just about creating a space; it’s about overcoming unique obstacles like extreme climates, limited resources, and futuristic infrastructure needs. This event pushes the boundaries of conventional thinking, encouraging participants to craft sustainable, innovative, and visionary solutions for life in the most uncharted terrains.
+            The &quot;ELEVATE-CITY&quot; event takes urban planning to a whole new level. In this imaginative competition, participants are tasked with designing a modern colony in the most extraordinary environments—think Moon-cities, Underground-Cities, or even floating islands. The challenge isn&rsquo;t just about creating a space; it&rsquo;s about overcoming unique obstacles like extreme climates, limited resources, and futuristic infrastructure needs. This event pushes the boundaries of conventional thinking, encouraging participants to craft sustainable, innovative, and visionary solutions for life in the most uncharted terrains.
             <br></br>
-            
-            
-            </p>
-            
+          </p>
+
             <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               
             Venue:
@@ -105,10 +103,15 @@ export default function ElevatecityPage() {
             </div>
           </div>
         <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
-          <img
-            className="md:w-2/3 w-3/4  "
+          <Image
+            className="md:w-2/3 w-3/4"
             src="/images/comingsoon.png"
             alt="Seminar"
+            width={600} // You can adjust this according to your desired size
+            height={400} // Adjust this according to your layout
+            style={{
+              filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
+            }}
           />
         </div>
       </div>

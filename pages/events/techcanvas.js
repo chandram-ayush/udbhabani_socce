@@ -81,11 +81,10 @@ export default function TechcanvasPage() {
           </h2>
           
           <p className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
-          “TECH-CANVAS” event is set to be a visual treat. Participants will design and showcase posters focused on specified domains within civil engineering, blending creativity with technical expertise. This event encourages students to present complex engineering concepts in a clear, visually compelling way. It's an exciting opportunity to engage with the latest trends, innovations, and research in civil engineering. With each poster telling a unique story, this event promises to inspire, educate, and spark meaningful discussions among future engineers.
+            &ldquo;TECH-CANVAS&rdquo; event is set to be a visual treat. Participants will design and showcase posters focused on specified domains within civil engineering, blending creativity with technical expertise. This event encourages students to present complex engineering concepts in a clear, visually compelling way. It&rsquo;s an exciting opportunity to engage with the latest trends, innovations, and research in civil engineering. With each poster telling a unique story, this event promises to inspire, educate, and spark meaningful discussions among future engineers.
             <br></br>
-            
-            
-            </p>
+          </p>
+
             
             <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               
@@ -105,10 +104,15 @@ export default function TechcanvasPage() {
             </div>
           </div>
         <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
-          <img
-            className="md:w-2/3 w-3/4  "
+          <Image
+            className="md:w-2/3 w-3/4"
             src="/images/comingsoon.png"
             alt="Seminar"
+            width={600} // You can adjust this according to your desired size
+            height={400} // Adjust this according to your layout
+            style={{
+              filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
+            }}
           />
         </div>
       </div>

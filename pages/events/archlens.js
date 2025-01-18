@@ -81,11 +81,10 @@ export default function ArchlensPage() {
           </h2>
           
           <p className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
-          The "ARCHLENS" event is a celebration of engineering through the lens of creativity. In this captivating exhibition, participants showcase their photography skills by displaying stunning images of engineering marvels from around the world. Whether it's the intricate design of bridges, skyscrapers, or innovative infrastructure, each snap tells a unique story of human ingenuity and technical brilliance. This event brings together the art of photography and the science of engineering, offering a visual feast for all while highlighting the beauty and complexity of modern engineering.
+            The &quot;ARCHLENS&quot; event is a celebration of engineering through the lens of creativity. In this captivating exhibition, participants showcase their photography skills by displaying stunning images of engineering marvels from around the world. Whether it&apos;s the intricate design of bridges, skyscrapers, or innovative infrastructure, each snap tells a unique story of human ingenuity and technical brilliance. This event brings together the art of photography and the science of engineering, offering a visual feast for all while highlighting the beauty and complexity of modern engineering.
             <br></br>
-            
-            
-            </p>
+          </p>
+
             
             <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               
@@ -105,10 +104,15 @@ export default function ArchlensPage() {
             </div>
           </div>
           <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
-          <img
-            className="md:w-2/3 w-3/4  "
-            src="/images/comingsoon.png"
-            alt="Seminar"
+          <Image
+                      className="md:w-2/3 w-3/4"
+                      src="/images/comingsoon.png"
+                      alt="Seminar"
+                      width={600} // You can adjust this according to your desired size
+                      height={400} // Adjust this according to your layout
+                      style={{
+                        filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
+                      }}
           />
         </div>
       </div>

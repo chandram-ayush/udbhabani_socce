@@ -80,12 +80,10 @@ export default function BuildvisionPage() {
             Build Vision
           </h2>
           
-          <p className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
-          "BUILD VISION” event is an exciting two-round challenge that combines both competition and learning. Participants will be tasked with designing and analyzing given structural models using STADD Pro, a powerful tool for structural analysis and design. The competition tests your skills in creating optimized, efficient designs while ensuring structural integrity. Alongside the competition, a comprehensive workshop will be conducted, helping participants master STADD Pro’s features and techniques. This unique blend of learning and hands-on application provides students with valuable insights into real-world engineering challenges, sharpening both their design and analytical skills.
-            <br></br>
-            
-            
-            </p>
+          <p className="text-left px-3 md:w-5/6 leading-7 md:px-0 ">
+            &ldquo;BUILD VISION&rdquo; event is an exciting two-round challenge that combines both competition and learning. Participants will be tasked with designing and analyzing given structural models using STADD Pro, a powerful tool for structural analysis and design. The competition tests your skills in creating optimized, efficient designs while ensuring structural integrity. Alongside the competition, a comprehensive workshop will be conducted, helping participants master STADD Pro&rsquo;s features and techniques. This unique blend of learning and hands-on application provides students with valuable insights into real-world engineering challenges, sharpening both their design and analytical skills.
+          </p>
+
             
             <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               
@@ -105,10 +103,15 @@ export default function BuildvisionPage() {
             </div>
           </div>
           <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
-          <img
-            className="md:w-2/3 w-3/4  "
+          <Image
+            className="md:w-2/3 w-3/4"
             src="/images/comingsoon.png"
             alt="Seminar"
+            width={600} // You can adjust this according to your desired size
+            height={400} // Adjust this according to your layout
+            style={{
+              filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
+            }}
           />
         </div>
       </div>

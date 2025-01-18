@@ -2,11 +2,11 @@ import { Box } from "@mui/material";
 import { Router } from "next/router";
 import React, { useEffect, useState } from "react";
 import BubbleComponent from "../components/BubbleComponent";
-import Contact from "../components/Contact";
-import HomePageAbout1 from "../components/HomePageAbout1";
+
+
 import LoadingComp from "../components/LoadingComp";
 import { useLoading } from "../components/LoadingContext";
-import MerchandiseComp from "../components/MerchandiseComp";
+
 import VideoText from "../components/VideoText";
 
 const styles = {

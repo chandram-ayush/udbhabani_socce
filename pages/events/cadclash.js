@@ -81,11 +81,9 @@ export default function CadclashPage() {
           </h2>
           
           <p className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
-          “CAD-CLASH” is an exciting challenge for aspiring designers. With two rounds of intense competition, participants will showcase their skills in creating precise CAD models, including intricate 3D designs. This event tests not only technical proficiency but also creativity and attention to detail, pushing participants to design innovative solutions to real-world engineering problems. Whether you're a seasoned AutoCAD user or an enthusiastic learner, this competition is the perfect opportunity to demonstrate your design expertise and leave a lasting impression.
-            <br></br>
-            
-            
-            </p>
+            &ldquo;CAD-CLASH&rdquo; is an exciting challenge for aspiring designers. With two rounds of intense competition, participants will showcase their skills in creating precise CAD models, including intricate 3D designs. This event tests not only technical proficiency but also creativity and attention to detail, pushing participants to design innovative solutions to real-world engineering problems. Whether you are a seasoned AutoCAD user or an enthusiastic learner, this competition is the perfect opportunity to demonstrate your design expertise and leave a lasting impression.
+          </p>
+
             
             <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               
@@ -105,10 +103,15 @@ export default function CadclashPage() {
             </div>
           </div>
           <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
-          <img
-            className="md:w-2/3 w-3/4  "
+          <Image
+            className="md:w-2/3 w-3/4"
             src="/images/comingsoon.png"
             alt="Seminar"
+            width={600} // You can adjust this according to your desired size
+            height={400} // Adjust this according to your layout
+            style={{
+              filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
+            }}
           />
         </div>
       </div>

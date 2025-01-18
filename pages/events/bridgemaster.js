@@ -106,10 +106,15 @@ export default function BridgemastersPage() {
             </div>
           </div>
           <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
-          <img
-            className="md:w-2/3 w-3/4  "
+          <Image
+            className="md:w-2/3 w-3/4"
             src="/images/comingsoon.png"
             alt="Seminar"
+            width={600} // You can adjust this according to your desired size
+            height={400} // Adjust this according to your layout
+            style={{
+              filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
+            }}
           />
         </div>
       </div>

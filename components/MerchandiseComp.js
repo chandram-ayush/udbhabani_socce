@@ -1,6 +1,6 @@
 import { Button, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-
+import Image from "next/image";
 const containerStyles = {
   marginTop: "50px",
   margin: {
@@ -109,7 +109,16 @@ export default function MerchandiseComp() {
           </Box>
         </Box>
         <Box className="tShirt" style={{}}>
-          <img src="/images/FrontTshirtNBg.png" alt="tshirt" />
+        <Image
+            className="md:w-2/3 w-3/4"
+            src="/images/comingsoon.png"
+            alt="Seminar"
+            width={600} // You can adjust this according to your desired size
+            height={400} // Adjust this according to your layout
+            style={{
+              filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
+            }}
+          />
         </Box>
       </Box>
     </Box>
