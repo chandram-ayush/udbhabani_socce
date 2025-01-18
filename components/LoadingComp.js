@@ -27,7 +27,7 @@ export default function LoadingComp() {
   return (
     <Box sx={styles} className="center1">
       <Image
-        src="/images/load.gif"
+        src="/images/load2.gif"
         alt="loading..."
         height={300}
         width={500}
