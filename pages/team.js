@@ -181,7 +181,7 @@ export default function TeamPage() {
       name: "Ayush Chandram",
       phone: "@gmail.com",
       post: "Hospitality Head",
-      imgname: "Ayush.jpeg",
+      imgname: "Ayush2.jpeg",
       insta: "https://www.instagram.com/ayushchandram?igsh=MWsweGNueG9uenZ6ZQ==",
       link: "https://www.linkedin.com/in/ayush-chandram/",
     },
