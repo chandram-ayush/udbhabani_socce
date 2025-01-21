@@ -300,16 +300,7 @@ export default function TeamPage() {
           </Tabs>
         </Box>
   
-        <TabPanel value={value} index={0} className="contactCards">
-          {/* Finance Committee */}
-          <Box style={{ width: "100%", marginBottom: "80px" }}>
-            <ContactCard person={finance_person.person1} />
-            <ContactCard person={finance_person.person2} />
-            <ContactCard person={finance_person.person3} />
-            <ContactCard person={finance_person.person4} />
-            {/* Add more finance team members as needed */}
-          </Box>
-        </TabPanel>
+        
   
         <TabPanel value={value} index={1} className="contactCards">
           {/* Event Management Committee */}
@@ -319,6 +310,17 @@ export default function TeamPage() {
             <ContactCard person={event_person.person3} />
             <ContactCard person={event_person.person4} />
             {/* Add more event management team members as needed */}
+          </Box>
+        </TabPanel>
+
+        <TabPanel value={value} index={0} className="contactCards">
+          {/* Finance Committee */}
+          <Box style={{ width: "100%", marginBottom: "80px" }}>
+            <ContactCard person={finance_person.person1} />
+            <ContactCard person={finance_person.person2} />
+            <ContactCard person={finance_person.person3} />
+            <ContactCard person={finance_person.person4} />
+            {/* Add more finance team members as needed */}
           </Box>
         </TabPanel>
   
