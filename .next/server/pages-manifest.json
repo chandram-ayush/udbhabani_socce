@@ -1,1 +1,7 @@
-{"/_error":"pages/_error.js","/_app":"pages/_app.js","/about":"pages/about.html","/events":"pages/events.html","/events/archlens":"pages/events/archlens.html","/events/brainwave":"pages/events/brainwave.html","/events/bridgemaster":"pages/events/bridgemaster.html","/events/cadclash":"pages/events/cadclash.html","/events/buildvision":"pages/events/buildvision.html","/events/elevatecity":"pages/events/elevatecity.html","/events/civinar":"pages/events/civinar.html","/home":"pages/home.html","/events/pitchperfect":"pages/events/pitchperfect.html","/events/techcanvas":"pages/events/techcanvas.html","/seminar":"pages/seminar.html","/":"pages/index.html","/team":"pages/team.html","/sponsors":"pages/sponsors.html","/industryacademiameet":"pages/industryacademiameet.html","/events/walkin":"pages/events/walkin.html","/_document":"pages/_document.js","/404":"pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/team": "pages/team.js"
+}

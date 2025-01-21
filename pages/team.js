@@ -111,7 +111,7 @@ export default function TeamPage() {
       name: "Rajdeep Barai",
       phone: "amitsharma@gmail.com",
       post: "Finance Head",
-      imgname: "Rajdeep.jpg",
+      imgname: "Rajdeep2.jpeg",
       insta: "https://www.instagram.com",
       link: "https://www.linkedin.com/in/barairajdeep01?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
@@ -181,7 +181,7 @@ export default function TeamPage() {
       name: "Ayush Chandram",
       phone: "@gmail.com",
       post: "Hospitality Head",
-      imgname: "Ayush2.jpeg",
+      imgname: "Ayush_chandram_photo1.jpeg",
       insta: "https://www.instagram.com/ayushchandram?igsh=MWsweGNueG9uenZ6ZQ==",
       link: "https://www.linkedin.com/in/ayush-chandram/",
     },
@@ -291,8 +291,8 @@ export default function TeamPage() {
         <br />
         <Box className="tabs">
           <Tabs value={value} onChange={handleChange}>
-            <Tab className="tab" label="Finance Committee" />
             <Tab className="tab" label="Event Management Committee" />
+            <Tab className="tab" label="Finance Committee" />
             <Tab className="tab" label="Travel and Hospitality Committee" />
             <Tab className="tab" label="Food Committee" />
             <Tab className="tab" label="Publicity and Fundraising Committee" />
@@ -302,7 +302,7 @@ export default function TeamPage() {
   
         
   
-        <TabPanel value={value} index={1} className="contactCards">
+        <TabPanel value={value} index={0} className="contactCards">
           {/* Event Management Committee */}
           <Box style={{ width: "100%", marginBottom: "80px" }}>
             <ContactCard person={event_person.person1} />
@@ -313,7 +313,7 @@ export default function TeamPage() {
           </Box>
         </TabPanel>
 
-        <TabPanel value={value} index={0} className="contactCards">
+        <TabPanel value={value} index={1} className="contactCards">
           {/* Finance Committee */}
           <Box style={{ width: "100%", marginBottom: "80px" }}>
             <ContactCard person={finance_person.person1} />
