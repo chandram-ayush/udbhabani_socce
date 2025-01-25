@@ -71,6 +71,41 @@ export default function TeamPage() {
       },
     },
   };
+  const socce_person = {
+    person1: {
+      name: "Rajneesh Pathak",
+      phone: "rajneeshpathakskn@gmail.com",
+      post: "Sponsorship Head",
+      imgname: "Rajneesh.jpg",
+      insta: "https://www.instagram.com/rj_phoenix_dion?igsh=cnllNDI0andydnR2",
+      link: "https://www.linkedin.com/in/rj-chats?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    person2: {
+      name: "Manish Kumar Bind",
+      phone: "2022ceb110.manish@students.iiests.ac.in",
+      post: "Sponsorship Executive",
+      imgname: "MANISH.jpg",
+      insta: "https://www.instagram.com/bind.manishkumar?igsh=c2pnYjgwemxpbnh4",
+      link: "https://www.linkedin.com/in/manish-kumar-bind -969877256",
+    },
+    person3: {
+      name: "Sohom Chakraborty",
+      phone: "2023ceb039.sohom@students.iiests.ac.in",
+      post: "Sponsorship Executive",
+      imgname: "SOHOM.jpg",
+      insta: "sohom_073",
+      link: "https://www.linkedin.com/in/sohom-chakraborty-173566314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    person4: {
+      name: "Dubakula Nithin Kumar ",
+      phone: "2023ac.in",
+      post: "Sponsorship Executive",
+      imgname: "DUBAKULA.jpg",
+      insta: "sohom_073",
+      link: "https://www.linkedin.com/in/dubakula-nithin-kumar-6234a7292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+     
+  };
   const publicity_person = {
     person1: {
       name: "Rajneesh Pathak",
@@ -291,6 +326,7 @@ export default function TeamPage() {
         <br />
         <Box className="tabs">
           <Tabs value={value} onChange={handleChange}>
+            {/*<Tab className="tab" label="Socce General Body" />*/}
             <Tab className="tab" label="Event Management Committee" />
             <Tab className="tab" label="Finance Committee" />
             <Tab className="tab" label="Travel and Hospitality Committee" />
@@ -301,7 +337,16 @@ export default function TeamPage() {
         </Box>
   
         
-  
+        {/*<TabPanel value={value} index={0} className="contactCards">
+           socce Committee 
+          <Box style={{ width: "100%", marginBottom: "80px" }}>
+            <ContactCard person={socce_person.person1} />
+            <ContactCard person={socce_person.person2} />
+            <ContactCard person={socce_person.person3} />
+            <ContactCard person={socce_person.person4} />
+          </Box>
+        </TabPanel>*/}
+
         <TabPanel value={value} index={0} className="contactCards">
           {/* Event Management Committee */}
           <Box style={{ width: "100%", marginBottom: "80px" }}>

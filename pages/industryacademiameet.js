@@ -109,7 +109,7 @@ export default function IAMPage() {
           INDUSTRY ACADEMIA MEET
         </h1>
         <p className=" text-lg font-normal text-gray-400 lg:text-xl sm:px-16 lg:px-48 ">
-          29th January - 1st February, 2024
+          1st February, 2025
         </p>
       </div>
       <section className="bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-.svg')]">
