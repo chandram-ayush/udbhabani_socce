@@ -6,7 +6,7 @@ import React from 'react';
 
 import Contact from "../../components/Contact";
 import Image from "next/image";
-export default function CadclashPage() {
+export default function HackathonPage() {
   const theme = useTheme();
 
   const btnStyle = {
@@ -77,26 +77,27 @@ export default function CadclashPage() {
        <div className="grid md:grid-cols-2 md:gap-8 gap-1 md:py-20 py-10">
         <div className=" flex flex-col justify-center  lg:items-end items-center text-lg font-normal text-gray-300 mb-4 md:order-1 order-2">
           <h2 className="text-blue-400 md:text-3xl font-bold text-2xl md:text-left self-center md:ml-16  text-center md-font-extrabold mb-2">
-            Cad-Clash
+          Hackathon
           </h2>
           
           <p className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
-            &ldquo;CAD-CLASH&rdquo; is an exciting challenge for aspiring designers. With two rounds of intense competition, participants will showcase their skills in creating precise CAD models, including intricate 3D designs. This event tests not only technical proficiency but also creativity and attention to detail, pushing participants to design innovative solutions to real-world engineering problems. Whether you are a seasoned AutoCAD user or an enthusiastic learner, this competition is the perfect opportunity to demonstrate your design expertise and leave a lasting impression.
+            The &quot;ARCHLENS&quot; event is a celebration of engineering through the lens of creativity. In this captivating exhibition, participants showcase their photography skills by displaying stunning images of engineering marvels from around the world. Whether it&apos;s the intricate design of bridges, skyscrapers, or innovative infrastructure, each snap tells a unique story of human ingenuity and technical brilliance. This event brings together the art of photography and the science of engineering, offering a visual feast for all while highlighting the beauty and complexity of modern engineering.
+            <br></br>
           </p>
 
             
           <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
             <br/>
-            Coordiantor: Sakshi Sneha and Mittal
+            Coordiantor: Shivanshu Gupta and Swyam
             <br/>
-            Venue: Computer Lab, Dept. of Civil Engg.
+            Venue:  First Lobby, Dept. of Civil Engg.
           </span>
             <div className="flex justify-center text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               <button
                 type="button"
                 className="mt-2 font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                 onClick={(event) =>
-                  (window.location.href = "https://forms.gle/EhD6GXLLougxj9Eu7")
+                  (window.location.href = "https://forms.gle/6MduKUXYmSdDXb9b7")
                 }
               >
                 Register Now
@@ -105,14 +106,14 @@ export default function CadclashPage() {
           </div>
           <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
           <Image
-            className="md:w-2/3 w-3/4"
-            src="/images/cadp.jpeg"
-            alt="Seminar"
-            width={600} // You can adjust this according to your desired size
-            height={400} // Adjust this according to your layout
-            style={{
-              filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
-            }}
+                      className="md:w-2/3 w-3/4"
+                      src="/images/hackp.jpeg"
+                      alt="Seminar"
+                      width={600} // You can adjust this according to your desired size
+                      height={400} // Adjust this according to your layout
+                      style={{
+                        filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
+                      }}
           />
         </div>
       </div>

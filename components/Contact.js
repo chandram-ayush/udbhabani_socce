@@ -179,7 +179,7 @@ export default function Contact() {
           </Link>
 
           <em style={{ margin: "10px 0 20px 0", textAlign: "center" }}>
-            Copyright © 2024 - All rights reserved by Udbhabani
+            Copyright © 2025 - All rights reserved by Udbhabani
           </em>
         </Box>
       </Box>

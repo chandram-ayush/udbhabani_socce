@@ -6,7 +6,7 @@ import React from 'react';
 
 import Contact from "../../components/Contact";
 import Image from "next/image";
-export default function CadclashPage() {
+export default function ConretePage() {
   const theme = useTheme();
 
   const btnStyle = {
@@ -77,26 +77,32 @@ export default function CadclashPage() {
        <div className="grid md:grid-cols-2 md:gap-8 gap-1 md:py-20 py-10">
         <div className=" flex flex-col justify-center  lg:items-end items-center text-lg font-normal text-gray-300 mb-4 md:order-1 order-2">
           <h2 className="text-blue-400 md:text-3xl font-bold text-2xl md:text-left self-center md:ml-16  text-center md-font-extrabold mb-2">
-            Cad-Clash
+          Concrete Technology
           </h2>
           
           <p className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
-            &ldquo;CAD-CLASH&rdquo; is an exciting challenge for aspiring designers. With two rounds of intense competition, participants will showcase their skills in creating precise CAD models, including intricate 3D designs. This event tests not only technical proficiency but also creativity and attention to detail, pushing participants to design innovative solutions to real-world engineering problems. Whether you are a seasoned AutoCAD user or an enthusiastic learner, this competition is the perfect opportunity to demonstrate your design expertise and leave a lasting impression.
+          Concrete technology, governed by BIS standards, bridges
+ tradition and innovation in construction. This segment covers
+ advanced techniques, sustainable practices, and material
+ breakthroughs. With a focus on durability and eco-friendly
+ solutions, concrete remains essential in building resilient,
+ efficient, and future-ready infrastructure.
+            <br></br>
           </p>
 
             
           <span className="text-left px-3 md:w-5/6 leading-7  md:px-0 ">
             <br/>
-            Coordiantor: Sakshi Sneha and Mittal
+            Coordiantor: Chaitanya Jaiswal
             <br/>
-            Venue: Computer Lab, Dept. of Civil Engg.
+            Venue:  Material lab, Dept. of Civil Engg.
           </span>
             <div className="flex justify-center text-left px-3 md:w-5/6 leading-7  md:px-0 ">
               <button
                 type="button"
                 className="mt-2 font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                 onClick={(event) =>
-                  (window.location.href = "https://forms.gle/EhD6GXLLougxj9Eu7")
+                  (window.location.href = "https://forms.gle/6MduKUXYmSdDXb9b7")
                 }
               >
                 Register Now
@@ -105,14 +111,14 @@ export default function CadclashPage() {
           </div>
           <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
           <Image
-            className="md:w-2/3 w-3/4"
-            src="/images/cadp.jpeg"
-            alt="Seminar"
-            width={600} // You can adjust this according to your desired size
-            height={400} // Adjust this according to your layout
-            style={{
-              filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
-            }}
+                      className="md:w-2/3 w-3/4"
+                      src="/images/concretep.jpeg"
+                      alt="Seminar"
+                      width={600} // You can adjust this according to your desired size
+                      height={400} // Adjust this according to your layout
+                      style={{
+                        filter: "drop-shadow(16px 16px 10px black)", // Applying the filter from your CSS
+                      }}
           />
         </div>
       </div>

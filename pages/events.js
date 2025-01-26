@@ -39,9 +39,9 @@ export default function TeamPage() {
   };
   const activity = {
     person1: {
-      name: "Brainwave",
-      imgname: "21.png",
-      registrationLink: "/events/brainwave",
+        name: "Concrete Tech",
+        imgname: "30.png",
+        registrationLink: "/events/concrete",
          
     },
       person2: {
@@ -91,6 +91,11 @@ export default function TeamPage() {
         imgname: "20.png",
         registrationLink: "/events/pitchperfect",
         
+      },
+      person10: {
+        name: "Brainwave",
+        imgname: "21.png",
+        registrationLink: "/events/brainwave",
       },
       
       

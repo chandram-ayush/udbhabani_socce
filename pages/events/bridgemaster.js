@@ -109,7 +109,7 @@ export default function BridgemastersPage() {
           <div className="flex items-center md:justify-start justify-center md:order-2 order-1">
           <Image
             className="md:w-2/3 w-3/4"
-            src="/images/comingsoon.png"
+            src="/images/bridgep.jpeg"
             alt="Seminar"
             width={600} // You can adjust this according to your desired size
             height={400} // Adjust this according to your layout
