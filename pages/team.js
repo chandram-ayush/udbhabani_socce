@@ -153,12 +153,20 @@ export default function TeamPage() {
     person2: {
       name: "Kaushal Gupta",
       phone: "amitsharma@gmail.com",
-      post: "Finance Head",
+      post: "Finance Executive",
       imgname: "kaushal.jpeg",
       insta: "https://www.instagram.com",
       link: "https://www.linkedin.com/in/kaushal-kumar-54aa5225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     person3: {
+      name: "Mayukh Mondal ",
+      phone: "amitsharma@gmail.com",
+      post: "Finance Executive",
+      imgname: "mayukh.jpeg",
+      insta: "https://www.instagram.com",
+      link: "https://www.linkedin.com/in/mayukh-m-6a2a1725b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    person4: {
       name: "Aditya Raj Verma",
       phone: "kiranverma@finance.com",
       post: "Finance Executive",
@@ -166,7 +174,7 @@ export default function TeamPage() {
       insta: "https://www.instagram.com/i_amadityarajverma",
       link: "https://www.linkedin.com/in/iamadityarajverma",
     },
-    person4: {
+    person5: {
       name: "Ayush Gupta",
       phone: "kiranverma@finance.com",
       post: "Finance Executive",
@@ -365,6 +373,7 @@ export default function TeamPage() {
             <ContactCard person={finance_person.person2} />
             <ContactCard person={finance_person.person3} />
             <ContactCard person={finance_person.person4} />
+            <ContactCard person={finance_person.person5} />
             {/* Add more finance team members as needed */}
           </Box>
         </TabPanel>
